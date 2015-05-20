@@ -1,4 +1,5 @@
-﻿using Xunit;
+﻿using leetCode._01_TwoSum;
+using Xunit;
 using Xunit.Should;
 
 namespace leetCode.test

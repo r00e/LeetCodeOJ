@@ -49,10 +49,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="src\AddTwoNumbersSolution.cs">
+    <Compile Include="src\01_TwoSum\TwoSumSolution.cs" />
+    <Compile Include="src\02_AddTwoNumbers\AddTwoNumbersSolution2.cs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
-    <Compile Include="src\TwoSumSolution.cs" />
+    <Compile Include="src\02_AddTwoNumbers\AddTwoNumbersSolution.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="test\AddTwoNumbersFacts.cs" />
     <Compile Include="test\TwoSumFacts.cs" />
