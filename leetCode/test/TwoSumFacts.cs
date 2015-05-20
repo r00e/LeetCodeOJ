@@ -8,7 +8,7 @@ namespace leetCode.test
         [Fact]
         public void should_return_1_and_2_when_input_is_0_0_0()
         {
-            TwoSum.Solution(new int[] {0, 0}, 0).ShouldBe(new int[]{1, 2});
+            TwoSumSolution.TwoSum(new int[] {0, 0}, 0).ShouldBe(new int[]{1, 2});
         }
     }
 }

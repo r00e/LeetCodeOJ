@@ -2,15 +2,15 @@
 
 namespace leetCode
 {
-    public class TwoSum
+    public class TwoSumSolution
     {
-        public static int[] Solution(int[] nums, int target)
+        public static int[] TwoSum(int[] nums, int target)
         {
-            int[] result = new int[2];
+            var result = new int[2];
 
             var dictionary = new Dictionary<int, int>();
 
-            for (int i = 0; i < nums.Length; i++)
+            for (var i = 0; i < nums.Length; i++)
             {
                 var diff = target - nums[i];
 

@@ -49,8 +49,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="src\TwoSum.cs" />
+    <Compile Include="src\AddTwoNumbersSolution.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="src\TwoSumSolution.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="test\AddTwoNumbersFacts.cs" />
     <Compile Include="test\TwoSumFacts.cs" />
   </ItemGroup>
   <ItemGroup>
