@@ -1,0 +1,9 @@
+*.suo
+*.user
+*.resharper
+*.csproj.ReSharper
+.git
+
+Debug/*
+bin/
+obj/
