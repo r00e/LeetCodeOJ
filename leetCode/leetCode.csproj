@@ -50,6 +50,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="src\01_TwoSum\TwoSumSolution.cs" />
+    <Compile Include="src\02_AddTwoNumbers\AddTwoNumbersSolution3.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
     <Compile Include="src\02_AddTwoNumbers\AddTwoNumbersSolution2.cs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>

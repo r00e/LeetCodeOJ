@@ -30,7 +30,7 @@ namespace leetCode.test
         }
 
         [Fact]
-        public void should_return_0_0_1_when_input_are_1_and_9_9_for_solution2()
+        public void should_return_18_when_input_are_0_and_18_for_solution2()
         {
             var addTwoNumbersSolution2 = new AddTwoNumbersSolution2();
             var actualResult2 = addTwoNumbersSolution2.AddTwoNumbers(
@@ -113,6 +113,21 @@ namespace leetCode.test
 
             actualResult2.val.ShouldBe(newExpectedResult.val);
             actualResult2.next.val.ShouldBe(newExpectedResult.next.val);
+        }
+
+        [Fact]
+        public void should_return_18_when_input_are_18_and_0_for_solution3()
+        {
+            var addTwoNumbersSolution3 = new AddTwoNumbersSolution3();
+            var actualResult3 = addTwoNumbersSolution3.AddTwoNumbers(
+                new ListNode(1) { next = new ListNode(8) },
+                new ListNode(0)
+            );
+            var newExpectedResult = new ListNode(1) { next = new ListNode(8) };
+
+            actualResult3.val.ShouldBe(newExpectedResult.val);
+            actualResult3.next.val.ShouldBe(newExpectedResult.next.val);
+            actualResult3.next.next.ShouldBeNull();
         }
     }
 }
