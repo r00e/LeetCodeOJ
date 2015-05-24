@@ -62,6 +62,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="src\03_LengthOfLongestSubstring\LengthOfLongestSubstringSolution2.cs" />
     <Compile Include="src\03_LengthOfLongestSubstring\LengthOfLongestSubstringSolution.cs" />
+    <Compile Include="src\04_FindMedianSortedArrays\FindMedianSortedArraysSolution.cs" />
+    <Compile Include="test\FindMedianSortedArraysFacts.cs" />
     <Compile Include="test\LengthOfLongestSubstringFacts.cs" />
     <Compile Include="test\AddTwoNumbersFacts.cs" />
     <Compile Include="test\TwoSumFacts.cs" />
