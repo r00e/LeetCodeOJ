@@ -17,6 +17,10 @@ namespace leetCode._03_LengthOfLongestSubstring
                 {
                     dict.Add(s[i], i);
                 }
+                else if(dict[s[i]] < begin)
+                {
+                    dict[s[i]] = i;
+                }
                 else
                 {
                     max = Math.Max(i-begin, max);

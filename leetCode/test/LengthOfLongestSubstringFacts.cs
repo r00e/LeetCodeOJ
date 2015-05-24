@@ -51,9 +51,33 @@ namespace leetCode.test
         }
 
         [Fact]
-        public void should_return_3_when_input_aababcdc()
+        public void should_return_4_when_input_aababcdc()
         {
             solution.LengthOfLongestSubstring("aababcdc").ShouldBe(4);
+        }
+
+        [Fact]
+        public void should_return_2_when_input_abba()
+        {
+            solution.LengthOfLongestSubstring("abba").ShouldBe(2);
+        }
+
+        [Fact]
+        public void should_return_3_when_input_abbac()
+        {
+            solution.LengthOfLongestSubstring("abbac").ShouldBe(3);
+        }
+
+        [Fact]
+        public void should_return_3_when_input_abcbac()
+        {
+            solution.LengthOfLongestSubstring("abcbac").ShouldBe(3);
+        }
+
+        [Fact]
+        public void should_return_3_when_input_abcbadea()
+        {
+            solution.LengthOfLongestSubstring("abcbadea").ShouldBe(5);
         }
     }
 }
