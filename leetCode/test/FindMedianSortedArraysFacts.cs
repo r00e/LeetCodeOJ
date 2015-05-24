@@ -1,6 +1,6 @@
-﻿using System;
-using leetCode._04_FindMedianSortedArrays;
-using Xunit;
+﻿using leetCode._04_FindMedianSortedArrays;
+using Xunit.Extensions;
+using Xunit.Should;
 
 namespace leetCode.test
 {
@@ -8,10 +8,13 @@ namespace leetCode.test
     {
         private readonly FindMedianSortedArraysSolution solution = new FindMedianSortedArraysSolution();
 
-        [Fact]
-        public void should_return_0_when_arrays_are_0_and_0()
+        [Theory]
+        [InlineData(new int[] {0}, new int[] {0}, 0)]
+        [InlineData(new int[] {0}, new int[] {1}, 0.5)]
+        [InlineData(new int[] {0}, new int[] {1, 1}, 1)]
+        public void should_return_median(int[] array1, int[] array2, double median)
         {
-            solution.FindMedianSortedArrays(new int[] {0}, new int[] {0});
+            solution.FindMedianSortedArrays(array1, array2).ShouldBe(median);
         }
     }
 }
