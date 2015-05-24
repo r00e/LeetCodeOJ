@@ -11,11 +11,6 @@ namespace leetCode._03_LengthOfLongestSubstring
             var max = 0;
             var begin = 0;
 
-            if (string.IsNullOrEmpty(s))
-            {
-                return 0;
-            }
-
             for (var i = 0; i < s.Length; i++)
             {
                 if (!dict.ContainsKey(s[i]))
