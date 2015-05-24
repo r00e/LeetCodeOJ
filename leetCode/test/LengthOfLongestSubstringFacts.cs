@@ -31,5 +31,29 @@ namespace leetCode.test
         {
             solution.LengthOfLongestSubstring("ab").ShouldBe(2);
         }
+
+        [Fact]
+        public void should_return_2_when_input_aba()
+        {
+            solution.LengthOfLongestSubstring("aba").ShouldBe(2);
+        }
+
+        [Fact]
+        public void should_return_2_when_input_aaaaaaaaaba()
+        {
+            solution.LengthOfLongestSubstring("aaaaaaaaaba").ShouldBe(2);
+        }
+
+        [Fact]
+        public void should_return_3_when_input_aaaaaaaaabac()
+        {
+            solution.LengthOfLongestSubstring("aaaaaaaaabac").ShouldBe(3);
+        }
+
+        [Fact]
+        public void should_return_3_when_input_aababcdc()
+        {
+            solution.LengthOfLongestSubstring("aababcdc").ShouldBe(4);
+        }
     }
 }
