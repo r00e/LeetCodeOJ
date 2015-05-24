@@ -19,5 +19,11 @@ namespace leetCode.test
         {
             solution.LengthOfLongestSubstring("a").ShouldBe(1);
         }
+
+        [Fact]
+        public void should_return_1_when_input_aa()
+        {
+            solution.LengthOfLongestSubstring("aa").ShouldBe(1);
+        }
     }
 }
