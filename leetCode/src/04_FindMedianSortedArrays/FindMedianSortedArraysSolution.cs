@@ -1,4 +1,5 @@
 ﻿// http://articles.leetcode.com/2011/01/find-k-th-smallest-element-in-union-of.html
+// http://fisherlei.blogspot.hk/2012/12/leetcode-median-of-two-sorted-arrays.html
 
 using System;
 
@@ -24,6 +25,9 @@ namespace leetCode._04_FindMedianSortedArrays
             }
 
             return mid;
+
+
+
         }
 
         private double FindKth(int[] nums1, int l1, int r1, int[] nums2, int l2, int r2, int k)
