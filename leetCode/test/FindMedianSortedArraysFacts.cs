@@ -1,5 +1,4 @@
-﻿using System;
-using leetCode._04_FindMedianSortedArrays;
+﻿using leetCode._04_FindMedianSortedArrays;
 using Xunit.Extensions;
 using Xunit.Should;
 
