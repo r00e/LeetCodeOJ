@@ -27,7 +27,7 @@ namespace leetCode._06_ZigZagConversion
                     else
                     {
                         result += s[index];
-                        index += GetOffset(currentLine, numRows);
+                        index += 2*(numRows - currentLine - 1);
                         if (index >= s.Length) continue;
                         result += s[index];
                         index += 2 * currentLine;
@@ -35,11 +35,6 @@ namespace leetCode._06_ZigZagConversion
                 }
             }
             return result;
-        }
-
-        private int GetOffset(int currentLine, int numRows)
-        {
-            return 2*(numRows - currentLine - 1);
         }
     }
 }
