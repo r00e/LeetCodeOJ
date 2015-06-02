@@ -65,6 +65,8 @@
     <Compile Include="src\04_FindMedianSortedArrays\FindMedianSortedArraysSolution2.cs" />
     <Compile Include="src\04_FindMedianSortedArrays\FindMedianSortedArraysSolution.cs" />
     <Compile Include="src\06_ZigZagConversion\ZigZagConversionSolution.cs" />
+    <Compile Include="src\07_ReverseIntegerSolution\ReverseIntegerSolution.cs" />
+    <Compile Include="test\ReverseIntegerFacts.cs" />
     <Compile Include="test\ZigZagConversionFacts.cs" />
     <Compile Include="test\FindMedianSortedArraysFacts.cs" />
     <Compile Include="test\LengthOfLongestSubstringFacts.cs" />

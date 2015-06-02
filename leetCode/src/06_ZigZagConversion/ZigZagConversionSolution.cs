@@ -17,6 +17,17 @@ namespace leetCode._06_ZigZagConversion
                 var isFirstOrLastLine = currentLine == 0 || currentLine == numRows - 1 ? true : false;
                 var index = currentLine;
                 
+//                PAYPALISHIRING                the offset between index
+//                P.......A.......H.......N             4
+//                ..A..P....L..S....I...I....G         2,2
+//                ....Y.......I.......R                 4
+//                so for the 1st and last line, the offset between 2 characters is 
+//                (nRows - 1) + (nRows - 2) + 1 = 2*(nRows - 1)
+//                for the other lines, 1st half is
+//                2*(nRows - 1) -2*currentLine = 2*(nRows - currentLine - 1)
+//                the last half is
+//                2*currentLine
+
                 while (index < s.Length)
                 {
                     if (isFirstOrLastLine)
