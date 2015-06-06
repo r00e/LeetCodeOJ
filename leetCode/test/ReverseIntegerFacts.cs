@@ -1,5 +1,4 @@
-﻿using leetCode._06_ZigZagConversion;
-using leetCode._07_ReverseIntegerSolution;
+﻿using leetCode._07_ReverseIntegerSolution;
 using Xunit.Extensions;
 using Xunit.Should;
 
@@ -14,6 +13,8 @@ namespace leetCode.test
         [InlineData(12, 21)]
         [InlineData(123, 321)]
         [InlineData(-123, -321)]
+        [InlineData(1534236469, 0)]
+        [InlineData(-2147483412, -2143847412)]
         public void should_return_reversed_integer(int integer, int expectedValue)
         {
             solution.Reverse(integer).ShouldBe(expectedValue);
