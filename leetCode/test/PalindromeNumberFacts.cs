@@ -7,6 +7,7 @@ namespace leetCode.test
     public class PalindromeNumberFacts
     {
         private readonly PalindromeNumberSolution solution = new PalindromeNumberSolution();
+        private readonly PalindromeNumberSolution2 solution2 = new PalindromeNumberSolution2();
 
         [Theory]
         [InlineData(1, true)]
@@ -18,6 +19,7 @@ namespace leetCode.test
         public void should_return_(int input, bool value)
         {
             solution.IsPanlidrome(input).ShouldBe(value);
+            solution2.IsPanlidrome(input).ShouldBe(value);
         }
     }
 }

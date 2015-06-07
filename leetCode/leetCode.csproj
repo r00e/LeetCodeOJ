@@ -67,6 +67,8 @@
     <Compile Include="src\06_ZigZagConversion\ZigZagConversionSolution.cs" />
     <Compile Include="src\07_ReverseIntegerSolution\ReverseIntegerSolution.cs" />
     <Compile Include="src\08_StringToInteger\StringToIntegerSolution.cs" />
+    <Compile Include="src\09_PalindromeNumber\PalindromeNumberSolution2.cs" />
+    <Compile Include="src\09_PalindromeNumber\PalindromeNumberSolution.cs" />
     <Compile Include="test\PalindromeNumberFacts.cs" />
     <Compile Include="test\StringToIntegerFacts.cs" />
     <Compile Include="test\ReverseIntegerFacts.cs" />
