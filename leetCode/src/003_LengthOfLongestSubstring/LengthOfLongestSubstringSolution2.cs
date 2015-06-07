@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace leetCode._03_LengthOfLongestSubstring
+namespace leetCode._003_LengthOfLongestSubstring
 {
     class LengthOfLongestSubstringSolution2
     {

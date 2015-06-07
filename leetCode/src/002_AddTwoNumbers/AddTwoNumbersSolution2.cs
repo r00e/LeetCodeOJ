@@ -1,8 +1,8 @@
-﻿using System.Collections.Generic;
+﻿// just a try. Don't use this because ListNode could be very large number.
+using System.Collections.Generic;
 using System.Linq;
-// just a try. Don't use this because ListNode could be very large number.
 
-namespace leetCode._02_AddTwoNumbers
+namespace leetCode._002_AddTwoNumbers
 {
     public class AddTwoNumbersSolution2
     {

@@ -49,26 +49,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="src\01_TwoSum\TwoSumSolution.cs" />
-    <Compile Include="src\02_AddTwoNumbers\AddTwoNumbersSolution3.cs">
+    <Compile Include="src\013_RomanToInteger\RomanToIntegerSolution.cs" />
+    <Compile Include="src\001_TwoSum\TwoSumSolution.cs" />
+    <Compile Include="src\002_AddTwoNumbers\AddTwoNumbersSolution3.cs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
-    <Compile Include="src\02_AddTwoNumbers\AddTwoNumbersSolution2.cs">
+    <Compile Include="src\002_AddTwoNumbers\AddTwoNumbersSolution2.cs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
-    <Compile Include="src\02_AddTwoNumbers\AddTwoNumbersSolution.cs">
+    <Compile Include="src\002_AddTwoNumbers\AddTwoNumbersSolution.cs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="src\03_LengthOfLongestSubstring\LengthOfLongestSubstringSolution2.cs" />
-    <Compile Include="src\03_LengthOfLongestSubstring\LengthOfLongestSubstringSolution.cs" />
-    <Compile Include="src\04_FindMedianSortedArrays\FindMedianSortedArraysSolution2.cs" />
-    <Compile Include="src\04_FindMedianSortedArrays\FindMedianSortedArraysSolution.cs" />
-    <Compile Include="src\06_ZigZagConversion\ZigZagConversionSolution.cs" />
-    <Compile Include="src\07_ReverseIntegerSolution\ReverseIntegerSolution.cs" />
-    <Compile Include="src\08_StringToInteger\StringToIntegerSolution.cs" />
-    <Compile Include="src\09_PalindromeNumber\PalindromeNumberSolution2.cs" />
-    <Compile Include="src\09_PalindromeNumber\PalindromeNumberSolution.cs" />
+    <Compile Include="src\003_LengthOfLongestSubstring\LengthOfLongestSubstringSolution2.cs" />
+    <Compile Include="src\003_LengthOfLongestSubstring\LengthOfLongestSubstringSolution.cs" />
+    <Compile Include="src\004_FindMedianSortedArrays\FindMedianSortedArraysSolution2.cs" />
+    <Compile Include="src\004_FindMedianSortedArrays\FindMedianSortedArraysSolution.cs" />
+    <Compile Include="src\006_ZigZagConversion\ZigZagConversionSolution.cs" />
+    <Compile Include="src\007_ReverseIntegerSolution\ReverseIntegerSolution.cs" />
+    <Compile Include="src\008_StringToInteger\StringToIntegerSolution.cs" />
+    <Compile Include="src\009_PalindromeNumber\PalindromeNumberSolution2.cs" />
+    <Compile Include="src\009_PalindromeNumber\PalindromeNumberSolution.cs" />
+    <Compile Include="test\RomanToIntegerFacts.cs" />
     <Compile Include="test\PalindromeNumberFacts.cs" />
     <Compile Include="test\StringToIntegerFacts.cs" />
     <Compile Include="test\ReverseIntegerFacts.cs" />

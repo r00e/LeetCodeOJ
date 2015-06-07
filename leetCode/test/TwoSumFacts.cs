@@ -1,4 +1,4 @@
-﻿using leetCode._01_TwoSum;
+﻿using leetCode._001_TwoSum;
 using Xunit;
 using Xunit.Should;
 

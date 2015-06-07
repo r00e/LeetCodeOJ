@@ -2,7 +2,7 @@
 
 using System;
 
-namespace leetCode._04_FindMedianSortedArrays
+namespace leetCode._004_FindMedianSortedArrays
 {
     class FindMedianSortedArraysSolution2
     {

@@ -1,4 +1,4 @@
-namespace leetCode._08_StringToInteger
+namespace leetCode._008_StringToInteger
 {
     public class StringToIntegerSolution
     {

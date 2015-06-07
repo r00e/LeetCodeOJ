@@ -1,5 +1,5 @@
 ﻿using System.Runtime.InteropServices;
-using leetCode._06_ZigZagConversion;
+using leetCode._006_ZigZagConversion;
 using Xunit;
 using Xunit.Extensions;
 using Xunit.Should;

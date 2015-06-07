@@ -1,4 +1,4 @@
-﻿using leetCode._07_ReverseIntegerSolution;
+﻿using leetCode._007_ReverseIntegerSolution;
 using Xunit.Extensions;
 using Xunit.Should;
 

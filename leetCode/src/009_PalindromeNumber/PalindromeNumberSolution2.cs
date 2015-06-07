@@ -1,4 +1,4 @@
-﻿namespace leetCode._09_PalindromeNumber
+﻿namespace leetCode._009_PalindromeNumber
 {
     public class PalindromeNumberSolution2
     {

@@ -1,4 +1,4 @@
-﻿namespace leetCode._07_ReverseIntegerSolution
+﻿namespace leetCode._007_ReverseIntegerSolution
 {
     public class ReverseIntegerSolution
     {
