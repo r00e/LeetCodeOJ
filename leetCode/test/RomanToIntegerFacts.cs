@@ -14,7 +14,7 @@ namespace leetCode.test
         [InlineData("IV", 4)]
         [InlineData("V", 5)]
         [InlineData("MMMCMXCIX", 3999)]
-        public void should_return_(string input, int expectedValue)
+        public void should_return_integer(string input, int expectedValue)
         {
             solution.RomanToInt(input).ShouldBe(expectedValue);
         }

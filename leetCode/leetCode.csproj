@@ -70,6 +70,7 @@
     <Compile Include="src\008_StringToInteger\StringToIntegerSolution.cs" />
     <Compile Include="src\009_PalindromeNumber\PalindromeNumberSolution2.cs" />
     <Compile Include="src\009_PalindromeNumber\PalindromeNumberSolution.cs" />
+    <Compile Include="test\LongestCommonPrefixFacts.cs" />
     <Compile Include="test\RomanToIntegerFacts.cs" />
     <Compile Include="test\PalindromeNumberFacts.cs" />
     <Compile Include="test\StringToIntegerFacts.cs" />
