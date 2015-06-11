@@ -75,6 +75,10 @@
     <Compile Include="src\019_RemoveNthNodeFromEndOfListSolution\RemoveNthNodeFromEndOfListSolution.cs" />
     <Compile Include="src\014_LongestCommonPrefixSolution\LongestCommonPrefixSolution2.cs" />
     <Compile Include="src\014_LongestCommonPrefixSolution\LongestCommonPrefixSolution.cs" />
+    <Compile Include="src\021_MergeTwoSortedListSolution\ListNode.cs" />
+    <Compile Include="src\021_MergeTwoSortedListSolution\MergeTwoSortedListSolution.cs" />
+    <Compile Include="src\020_ValidParenthesesSolution\ValidParenthesesSolution.cs" />
+    <Compile Include="test\RemoveDuplicatesFacts.cs" />
     <Compile Include="test\LongestCommonPrefixFacts.cs" />
     <Compile Include="test\ValidParenthesesFacts.cs" />
     <Compile Include="test\RomanToIntegerFacts.cs" />
