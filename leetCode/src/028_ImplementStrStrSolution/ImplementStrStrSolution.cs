@@ -12,16 +12,16 @@ namespace leetCode._028_ImplementStrStrSolution
             if (needle.Length == 0) return 0;
 
             var kmpHelper = KmpHelper(needle);
-            var needleIndex = -1;
+            var matchedIndex = -1;
             for (var i = 0; i < haystack.Length; i++)
             {
-                while (needleIndex > -1 && haystack[i] != needle[needleIndex + 1])
+                while (matchedIndex > -1 && haystack[i] != needle[matchedIndex + 1])
                 {
-                    needleIndex = kmpHelper[needleIndex];
+                    matchedIndex = kmpHelper[matchedIndex];
                 }
 
-                if(needle[needleIndex + 1] == haystack[i]) needleIndex++;
-                if (needleIndex == needle.Length - 1) return i - needle.Length + 1;
+                if(needle[matchedIndex + 1] == haystack[i]) matchedIndex++;
+                if (matchedIndex == needle.Length - 1) return i - needle.Length + 1;
             }
 
             return -1;
