@@ -86,6 +86,7 @@
     <Compile Include="test\RemoveElementFacts.cs" />
     <Compile Include="test\RemoveDuplicatesFacts.cs" />
     <Compile Include="test\LongestCommonPrefixFacts.cs" />
+    <Compile Include="test\CountAndSayFacts.cs" />
     <Compile Include="test\ValidSudokuFacts.cs" />
     <Compile Include="test\ValidParenthesesFacts.cs" />
     <Compile Include="test\RomanToIntegerFacts.cs" />
