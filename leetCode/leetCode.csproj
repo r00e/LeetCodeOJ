@@ -80,10 +80,13 @@
     <Compile Include="src\020_ValidParenthesesSolution\ValidParenthesesSolution.cs" />
     <Compile Include="src\025_RemoveDuplicatsFromSortedArray\RemoveDuplicatesSolution.cs" />
     <Compile Include="src\027_RemoveElementSolution\RemoveElementSolution.cs" />
+    <Compile Include="src\028_ImplementStrStrSolution\ImplementStrStrSolution.cs" />
+    <Compile Include="src\036_ValidSudokuSolution\ValidSudokuSolution.cs" />
     <Compile Include="test\ImplementStrStrFacts.cs" />
     <Compile Include="test\RemoveElementFacts.cs" />
     <Compile Include="test\RemoveDuplicatesFacts.cs" />
     <Compile Include="test\LongestCommonPrefixFacts.cs" />
+    <Compile Include="test\ValidSudokuFacts.cs" />
     <Compile Include="test\ValidParenthesesFacts.cs" />
     <Compile Include="test\RomanToIntegerFacts.cs" />
     <Compile Include="test\PalindromeNumberFacts.cs" />
