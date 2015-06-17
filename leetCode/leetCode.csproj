@@ -84,6 +84,7 @@
     <Compile Include="src\036_ValidSudokuSolution\ValidSudokuSolution.cs" />
     <Compile Include="src\038_CountAndSaySolution\CountAndSaySolution.cs" />
     <Compile Include="src\058_LengthOfLastWordSolution\LengthOfLastWordSolution.cs" />
+    <Compile Include="src\066_PlusOneSolution\PlusOneSolution.cs" />
     <Compile Include="test\PlusOneFacts.cs" />
     <Compile Include="test\LengthOfLastWordFacts.cs" />
     <Compile Include="test\ImplementStrStrFacts.cs" />
