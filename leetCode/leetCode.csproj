@@ -83,7 +83,9 @@
     <Compile Include="src\028_ImplementStrStrSolution\ImplementStrStrSolution.cs" />
     <Compile Include="src\036_ValidSudokuSolution\ValidSudokuSolution.cs" />
     <Compile Include="src\038_CountAndSaySolution\CountAndSaySolution.cs" />
-    <Compile Include="test\CountAndSayFacts - Copy.cs" />
+    <Compile Include="src\058_LengthOfLastWordSolution\LengthOfLastWordSolution.cs" />
+    <Compile Include="test\PlusOneFacts.cs" />
+    <Compile Include="test\LengthOfLastWordFacts.cs" />
     <Compile Include="test\ImplementStrStrFacts.cs" />
     <Compile Include="test\RemoveElementFacts.cs" />
     <Compile Include="test\RemoveDuplicatesFacts.cs" />
