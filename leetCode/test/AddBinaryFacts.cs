@@ -18,7 +18,7 @@ namespace leetCode.test
         [InlineData("11", "1", "100")]
         public void should_return_sum_of_binary_strings(string a, string b, string sum)
         {
-//            solution.AddBinary(a, b).ShouldBe(sum);
+            solution.AddBinary(a, b).ShouldBe(sum);
             solution2.AddBinary(a, b).ShouldBe(sum);
         }
     }
