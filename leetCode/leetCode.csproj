@@ -87,6 +87,8 @@
     <Compile Include="src\066_PlusOneSolution\PlusOneSolution.cs" />
     <Compile Include="src\067_AddBinarySolution\AddBinarySolution2.cs" />
     <Compile Include="src\067_AddBinarySolution\AddBinarySolution.cs" />
+    <Compile Include="src\070_ClimbingStairsSolution\ClimbingStairsSolution.cs" />
+    <Compile Include="test\ClimbingStairsFacts.cs" />
     <Compile Include="test\AddBinaryFacts.cs" />
     <Compile Include="test\PlusOneFacts.cs" />
     <Compile Include="test\LengthOfLastWordFacts.cs" />
