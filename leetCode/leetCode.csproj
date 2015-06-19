@@ -85,6 +85,9 @@
     <Compile Include="src\038_CountAndSaySolution\CountAndSaySolution.cs" />
     <Compile Include="src\058_LengthOfLastWordSolution\LengthOfLastWordSolution.cs" />
     <Compile Include="src\066_PlusOneSolution\PlusOneSolution.cs" />
+    <Compile Include="src\067_AddBinarySolution\AddBinarySolution2.cs" />
+    <Compile Include="src\067_AddBinarySolution\AddBinarySolution.cs" />
+    <Compile Include="test\AddBinaryFacts.cs" />
     <Compile Include="test\PlusOneFacts.cs" />
     <Compile Include="test\LengthOfLastWordFacts.cs" />
     <Compile Include="test\ImplementStrStrFacts.cs" />
