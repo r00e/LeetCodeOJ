@@ -92,6 +92,10 @@
     <Compile Include="src\083_RemoveDuplicatesFromSortedListSolution\RemoveDuplicatesFromSortedListSolution.cs" />
     <Compile Include="src\088_MergeSortedArraySolution\MergeSortedArraySolution2.cs" />
     <Compile Include="src\088_MergeSortedArraySolution\MergeSortedArraySolution.cs" />
+    <Compile Include="src\100_SameTreeSolution\SameTreeSolution2.cs" />
+    <Compile Include="src\100_SameTreeSolution\SameTreeSolution.cs" />
+    <Compile Include="src\100_SameTreeSolution\TreeNode.cs" />
+    <Compile Include="test\SameTreeFacts.cs" />
     <Compile Include="test\MergeSortedArrayFacts.cs" />
     <Compile Include="test\ClimbingStairsFacts.cs" />
     <Compile Include="test\AddBinaryFacts.cs" />
