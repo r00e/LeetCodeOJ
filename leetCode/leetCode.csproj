@@ -88,6 +88,11 @@
     <Compile Include="src\067_AddBinarySolution\AddBinarySolution2.cs" />
     <Compile Include="src\067_AddBinarySolution\AddBinarySolution.cs" />
     <Compile Include="src\070_ClimbingStairsSolution\ClimbingStairsSolution.cs" />
+    <Compile Include="src\083_RemoveDuplicatesFromSortedListSolution\ListNode.cs" />
+    <Compile Include="src\083_RemoveDuplicatesFromSortedListSolution\RemoveDuplicatesFromSortedListSolution.cs" />
+    <Compile Include="src\088_MergeSortedArraySolution\MergeSortedArraySolution2.cs" />
+    <Compile Include="src\088_MergeSortedArraySolution\MergeSortedArraySolution.cs" />
+    <Compile Include="test\MergeSortedArrayFacts.cs" />
     <Compile Include="test\ClimbingStairsFacts.cs" />
     <Compile Include="test\AddBinaryFacts.cs" />
     <Compile Include="test\PlusOneFacts.cs" />
