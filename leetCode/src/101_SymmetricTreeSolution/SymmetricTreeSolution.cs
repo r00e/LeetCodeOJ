@@ -1,4 +1,6 @@
-﻿namespace leetCode._101_SymmetricTreeSolution
+﻿using leetCode.Common;
+
+namespace leetCode._101_SymmetricTreeSolution
 {
     // Recursive method
     public class SymmetricTreeSolution

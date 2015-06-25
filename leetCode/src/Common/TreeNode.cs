@@ -1,4 +1,4 @@
-﻿namespace leetCode._102_BinaryTreeLevelOrderTraversalSolution
+namespace leetCode.Common
 {
     public class TreeNode
     {

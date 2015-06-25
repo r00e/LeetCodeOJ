@@ -1,4 +1,5 @@
-﻿using leetCode._102_BinaryTreeLevelOrderTraversalSolution;
+﻿using leetCode.Common;
+using leetCode._102_BinaryTreeLevelOrderTraversalSolution;
 using Xunit;
 using Xunit.Should;
 
@@ -6,7 +7,7 @@ namespace leetCode.test
 {
     public class BinaryTreeLevelOrderTraversalFacts
     {
-        private readonly BinaryTreeLevelOrderTraversasSolution solution = new BinaryTreeLevelOrderTraversasSolution();
+        private readonly BinaryTreeLevelOrderTraversalSolution solution = new BinaryTreeLevelOrderTraversalSolution();
 
         [Fact]
         public void should_return_empty_when_tree_is_null()

@@ -1,4 +1,4 @@
-namespace leetCode._083_RemoveDuplicatesFromSortedListSolution
+namespace leetCode.Common
 {
     public class ListNode
     {

@@ -1,4 +1,5 @@
-﻿using leetCode._101_SymmetricTreeSolution;
+﻿using leetCode.Common;
+using leetCode._101_SymmetricTreeSolution;
 using Xunit;
 using Xunit.Should;
 

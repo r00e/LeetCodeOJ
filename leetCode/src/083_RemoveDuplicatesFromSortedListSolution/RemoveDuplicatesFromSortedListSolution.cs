@@ -1,3 +1,5 @@
+using leetCode.Common;
+
 namespace leetCode._083_RemoveDuplicatesFromSortedListSolution
 {
     public class RemoveDuplicatesFromSortedListSolution

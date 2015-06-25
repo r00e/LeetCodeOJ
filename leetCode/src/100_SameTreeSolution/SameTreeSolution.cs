@@ -1,4 +1,6 @@
-﻿namespace leetCode._100_SameTreeSolution
+﻿using leetCode.Common;
+
+namespace leetCode._100_SameTreeSolution
 {
     public class SameTreeSolution
     {

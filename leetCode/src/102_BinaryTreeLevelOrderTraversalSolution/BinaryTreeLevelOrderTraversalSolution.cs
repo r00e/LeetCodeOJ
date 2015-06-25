@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Xunit.Should;
+using leetCode.Common;
 
 namespace leetCode._102_BinaryTreeLevelOrderTraversalSolution
 {
-    public class BinaryTreeLevelOrderTraversasSolution
+    public class BinaryTreeLevelOrderTraversalSolution
     {
         public IList<IList<int>> LevelOrder(TreeNode root)
         {
