@@ -97,6 +97,9 @@
     <Compile Include="src\101_SymmetricTreeSolution\SymmetricTreeIterativeSolution.cs" />
     <Compile Include="src\101_SymmetricTreeSolution\SymmetricTreeSolution.cs" />
     <Compile Include="src\101_SymmetricTreeSolution\TreeNode.cs" />
+    <Compile Include="src\102_BinaryTreeLevelOrderTraversalSolution\BinaryTreeLevelOrderTraversasSolution.cs" />
+    <Compile Include="src\102_BinaryTreeLevelOrderTraversalSolution\TreeNode.cs" />
+    <Compile Include="test\BinaryTreeLevelOrderTraversalFacts.cs" />
     <Compile Include="test\SymmetricTreeFacts.cs" />
     <Compile Include="test\SameTreeFacts.cs" />
     <Compile Include="test\MergeSortedArrayFacts.cs" />
