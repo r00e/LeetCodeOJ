@@ -13,7 +13,7 @@ namespace leetCode._104_MaximumDepthOfBinaryTreeSolution
 
             var queue = new Queue<TreeNode>();
             queue.Enqueue(root);
-            var allNodesByLevel = new List<IList<int>>();
+            var level = 0;
 
             while (queue.Count != 0)
             {
@@ -23,12 +23,12 @@ namespace leetCode._104_MaximumDepthOfBinaryTreeSolution
                     if(queue.Peek().left != null) queue.Enqueue(queue.Peek().left);
                     if(queue.Peek().right != null) queue.Enqueue(queue.Peek().right);
 
-                    if(i == 0) allNodesByLevel.Add(new List<int>(){queue.Dequeue().val});
-                    else allNodesByLevel.Last().Add(queue.Dequeue().val);
+                    if(i == 0) level++;
+                    queue.Dequeue();
                 }
             }
 
-            return allNodesByLevel.Count;
+            return level;
         }
     }
 }

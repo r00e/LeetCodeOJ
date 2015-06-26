@@ -95,6 +95,7 @@
     <Compile Include="src\101_SymmetricTreeSolution\SymmetricTreeIterativeSolution.cs" />
     <Compile Include="src\101_SymmetricTreeSolution\SymmetricTreeSolution.cs" />
     <Compile Include="src\102_BinaryTreeLevelOrderTraversalSolution\BinaryTreeLevelOrderTraversalSolution.cs" />
+    <Compile Include="src\104_MaximumDepthOfBinaryTreeSolution\MaximumDepthOfBinaryTreeRecursiveSolution.cs" />
     <Compile Include="src\104_MaximumDepthOfBinaryTreeSolution\MaximumDepthOfBinaryTreeSolution.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />

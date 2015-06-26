@@ -7,7 +7,8 @@ namespace leetCode.test
 {
     public class MaximumDepthOfBinaryTreeFacts
     {
-        private readonly MaximumDepthOfBinaryTreeSolution solution = new MaximumDepthOfBinaryTreeSolution();
+//        private readonly MaximumDepthOfBinaryTreeSolution solution = new MaximumDepthOfBinaryTreeSolution();
+        private readonly MaximumDepthOfBinaryTreeRecursiveSolution solution = new MaximumDepthOfBinaryTreeRecursiveSolution();
 
         [Fact]
         public void should_return_empty_when_tree_is_null()
