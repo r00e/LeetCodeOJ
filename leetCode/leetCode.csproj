@@ -101,6 +101,7 @@
     <Compile Include="src\110_BalancedBinaryTreeSolution\BalancedBinaryTreeSolution.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
+    <Compile Include="test\MinimumDepthOfBinaryTreeFacts.cs" />
     <Compile Include="test\BalancedBinaryTreeFacts.cs" />
     <Compile Include="test\MaximumDepthOfBinaryTreeFacts.cs" />
     <Compile Include="test\BinaryTreeLevelOrderTraversalFacts.cs" />
