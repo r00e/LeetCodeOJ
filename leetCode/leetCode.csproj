@@ -99,6 +99,7 @@
     <Compile Include="src\104_MaximumDepthOfBinaryTreeSolution\MaximumDepthOfBinaryTreeSolution.cs" />
     <Compile Include="src\107_BinaryTreeLevelOrderTraversalIISolution\BinaryTreeLevelOrderTraversalIISolution.cs" />
     <Compile Include="src\110_BalancedBinaryTreeSolution\BalancedBinaryTreeSolution.cs" />
+    <Compile Include="src\111_MinimumDepthOfBinaryTreeSolution\MinimumDepthOfBinaryTreeSolution.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
     <Compile Include="test\MinimumDepthOfBinaryTreeFacts.cs" />

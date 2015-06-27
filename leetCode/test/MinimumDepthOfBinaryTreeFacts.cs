@@ -1,5 +1,5 @@
-﻿using System;
-using leetCode.Common;
+﻿using leetCode.Common;
+using leetCode._111_MinimumDepthOfBinaryTreeSolution;
 using Xunit;
 using Xunit.Should;
 
@@ -78,21 +78,6 @@ namespace leetCode.test
             };
 
             solution.MinDepth(tree).ShouldBe(3);
-        }
-    }
-
-    internal class MinimumDepthOfBinaryTreeSolution
-    {
-        public int MinDepth(TreeNode root)
-        {
-            if(root == null) return 0;
-
-            var leftLen = MinDepth(root.left);
-            var rightLen = MinDepth(root.right);
-
-            if (leftLen == 0) return 1 + rightLen;
-            if (rightLen == 0) return 1 + leftLen;
-            return 1 + Math.Min(leftLen, rightLen);
         }
     }
 }
