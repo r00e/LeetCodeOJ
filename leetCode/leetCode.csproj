@@ -101,8 +101,10 @@
     <Compile Include="src\110_BalancedBinaryTreeSolution\BalancedBinaryTreeSolution.cs" />
     <Compile Include="src\111_MinimumDepthOfBinaryTreeSolution\MinimumDepthOfBinaryTreeSolution.cs" />
     <Compile Include="src\112_PathSumSolution\PathSumSolution.cs" />
+    <Compile Include="src\118_PascalTriangleSolution\PascalTriangleSolution.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
+    <Compile Include="test\PascalTriangleFacts.cs" />
     <Compile Include="test\PathSumFacts.cs" />
     <Compile Include="test\MinimumDepthOfBinaryTreeFacts.cs" />
     <Compile Include="test\BalancedBinaryTreeFacts.cs" />
