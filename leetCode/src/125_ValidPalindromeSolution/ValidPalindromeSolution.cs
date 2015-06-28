@@ -6,40 +6,14 @@
         {
             if(string.IsNullOrEmpty(s)) return true;
 
-            var endCharIndex = s.Length - 1;
-            while (!IsValidChar(s[endCharIndex]))
+            for (int head = 0, tail = s.Length - 1; head < tail; head++, tail--)
             {
-                endCharIndex--;
-                if (endCharIndex < 0) return true;
+                while (head < tail && !char.IsLetterOrDigit(char.ToLower(s[head]))) head++;
+                while (head < tail && !char.IsLetterOrDigit(char.ToLower(s[tail]))) tail--;
+                if(char.ToLower(s[head]) != char.ToLower(s[tail])) return false;
             }
 
-            for (var i = 0; i < endCharIndex; i++)
-            {
-                while (!IsValidChar(s[i]))
-                {
-                    i++;
-                }
-
-                if (char.ToLower(s[i]) != char.ToLower(s[endCharIndex]))
-                {
-                    return false;
-                }
-                else if(i != endCharIndex)
-                {
-                    endCharIndex--;
-                    while (!IsValidChar(s[endCharIndex]))
-                    {
-                        endCharIndex--;
-                    }
-                }
-            }
             return true;
-        }
-
-        private static bool IsValidChar(char c)
-        {
-            c = char.ToLower(c);
-            return (c >= 'a' && c <= 'z') || (c >= '0' && c <= '9');
         }
     }
 }

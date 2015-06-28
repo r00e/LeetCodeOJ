@@ -15,6 +15,7 @@ namespace leetCode.test
         [Theory]
         [InlineData("", true)]
         [InlineData(" ", true)]
+        [InlineData(",.", true)]
         [InlineData("a", true)]
         [InlineData("ab", false)]
         [InlineData("aba", true)]
