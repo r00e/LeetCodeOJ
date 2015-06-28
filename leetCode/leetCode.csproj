@@ -103,8 +103,10 @@
     <Compile Include="src\112_PathSumSolution\PathSumSolution.cs" />
     <Compile Include="src\118_PascalTriangleSolution\PascalTriangleSolution.cs" />
     <Compile Include="src\119_PascalTriangleIISolution\PascalTriangleSolutionII.cs" />
+    <Compile Include="src\125_ValidPalindromeSolution\ValidPalindromeSolution.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
+    <Compile Include="test\ValidPalindromeFacts.cs" />
     <Compile Include="test\PascalTriangleIIFacts.cs" />
     <Compile Include="test\PascalTriangleFacts.cs" />
     <Compile Include="test\PathSumFacts.cs" />
