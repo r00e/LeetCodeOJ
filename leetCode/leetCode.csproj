@@ -106,6 +106,7 @@
     <Compile Include="src\125_ValidPalindromeSolution\ValidPalindromeSolution.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
+    <Compile Include="test\MinStackFacts.cs" />
     <Compile Include="test\ValidPalindromeFacts.cs" />
     <Compile Include="test\PascalTriangleIIFacts.cs" />
     <Compile Include="test\PascalTriangleFacts.cs" />
