@@ -108,6 +108,7 @@
     <Compile Include="src\160_IntersectionOfTwoLinkedListsSolution\IntersectionOfTwoLinkedListsSolution.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
+    <Compile Include="test\CompareVersionNumbersFacts.cs" />
     <Compile Include="test\IntersectionOfTwoLinkedListsFacts.cs" />
     <Compile Include="test\MinStackFacts.cs" />
     <Compile Include="test\ValidPalindromeFacts.cs" />

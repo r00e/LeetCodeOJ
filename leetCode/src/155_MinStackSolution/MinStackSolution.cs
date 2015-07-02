@@ -20,7 +20,7 @@ namespace leetCode._155_MinStackSolution
                 var pop = stack.Pop();
                 if (pop == min.Peek()) min.Pop();
             }
-            catch(InvalidOperationException e)
+            catch(InvalidOperationException)
             {
                 throw new InvalidOperationException("Stack is empty.");
             }
@@ -32,7 +32,7 @@ namespace leetCode._155_MinStackSolution
             {
                 return stack.Peek();
             }
-            catch(InvalidOperationException e)
+            catch(InvalidOperationException)
             {
                 throw new InvalidOperationException("Stack is empty.");
             }
@@ -44,7 +44,7 @@ namespace leetCode._155_MinStackSolution
             {
                 return min.Peek();
             }
-            catch (InvalidOperationException e)
+            catch (InvalidOperationException)
             {
                 throw new InvalidOperationException("Stack is empty.");
             }
