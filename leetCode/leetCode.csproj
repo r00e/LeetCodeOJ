@@ -106,6 +106,7 @@
     <Compile Include="src\125_ValidPalindromeSolution\ValidPalindromeSolution.cs" />
     <Compile Include="src\155_MinStackSolution\MinStackSolution.cs" />
     <Compile Include="src\160_IntersectionOfTwoLinkedListsSolution\IntersectionOfTwoLinkedListsSolution.cs" />
+    <Compile Include="src\165_CompareVersionNumber\CompareVersionNumbersSolution.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
     <Compile Include="test\CompareVersionNumbersFacts.cs" />
