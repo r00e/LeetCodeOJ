@@ -1,6 +1,4 @@
-﻿using System.Linq;
-using leetCode._168_ExcelSheetColumnTitleSolution;
-using Xunit;
+﻿using leetCode._168_ExcelSheetColumnTitleSolution;
 using Xunit.Extensions;
 using Xunit.Should;
 

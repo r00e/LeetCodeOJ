@@ -108,8 +108,10 @@
     <Compile Include="src\160_IntersectionOfTwoLinkedListsSolution\IntersectionOfTwoLinkedListsSolution.cs" />
     <Compile Include="src\165_CompareVersionNumber\CompareVersionNumbersSolution.cs" />
     <Compile Include="src\168_ExcelSheetColumnTitleSolution\ExcelSheetColumnTitleSolution.cs" />
+    <Compile Include="src\169_MajorityElementSolution\MajorityElementSolution.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
+    <Compile Include="test\MajorityElementFacts.cs" />
     <Compile Include="test\ExcelSheetColumnTitleFacts.cs" />
     <Compile Include="test\CompareVersionNumbersFacts.cs" />
     <Compile Include="test\IntersectionOfTwoLinkedListsFacts.cs" />
