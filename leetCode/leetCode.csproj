@@ -110,8 +110,10 @@
     <Compile Include="src\168_ExcelSheetColumnTitleSolution\ExcelSheetColumnTitleSolution.cs" />
     <Compile Include="src\169_MajorityElementSolution\MajorityElementSolution.cs" />
     <Compile Include="src\171_ExcelSheetColumnNumberSolution\ExcelSheetColumnNumberSolution.cs" />
+    <Compile Include="src\172_FactorialTrailingZeroesSolution\FactorialTrailingZeroesSolution.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
+    <Compile Include="test\FactorialTrailingZeroesFacts.cs" />
     <Compile Include="test\ExcelSheetColumnNumberFacts.cs" />
     <Compile Include="test\MajorityElementFacts.cs" />
     <Compile Include="test\ExcelSheetColumnTitleFacts.cs" />
