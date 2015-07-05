@@ -111,6 +111,7 @@
     <Compile Include="src\169_MajorityElementSolution\MajorityElementSolution.cs" />
     <Compile Include="src\171_ExcelSheetColumnNumberSolution\ExcelSheetColumnNumberSolution.cs" />
     <Compile Include="src\172_FactorialTrailingZeroesSolution\FactorialTrailingZeroesSolution.cs" />
+    <Compile Include="src\189_RotateArraySolution\RotateArraySolution.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
     <Compile Include="test\RotateArrayFacts.cs" />
