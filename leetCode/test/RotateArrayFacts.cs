@@ -68,34 +68,34 @@ namespace leetCode.test
     {
         public void Rotate(int[] nums, int k)
         {
-//        [1 2, 3 4 5]  k = 3
-//           ↑      ↑
-// formerPointer  laterPointer
-//            var tmpArray = nums;
-//            var laterPointer = nums.Length - 1;
-//            var formerPointer = nums.Length - k%nums.Length - 1;
-//            while (laterPointer > 0 && nums.Length - laterPointer + 1 > k)
-//            {
-//                var tmp = nums[laterPointer];
-//                nums[laterPointer] = nums[formerPointer];
-//                nums[formerPointer] = tmp;
-//                laterPointer--;
-//                formerPointer = formerPointer != 0 ? formerPointer - 1 : (nums.Length - k%nums.Length - 1);
-//            }
-
+            Reverse(nums, 0, nums.Length - 1);
+            Reverse(nums, k%nums.Length, nums.Length - 1);
+            Reverse(nums, 0, k%nums.Length - 1);
 // O(n) space
-            var tmpArray = new int[nums.Length];
-            for (var i = 0; i < nums.Length; i++)
+//            var tmpArray = new int[nums.Length];
+//            for (var i = 0; i < nums.Length; i++)
+//            {
+//                tmpArray[i] = nums[i];
+//            }
+//            for (int i = 0, step = k % nums.Length; step > 0; i++, step--)
+//            {
+//                nums[i] = tmpArray[nums.Length - step];
+//            }
+//            for (int i = 0, step = k % nums.Length; i < nums.Length - step; i++)
+//            {
+//                nums[i + step] = tmpArray[i];
+//            }
+        }
+
+        private void Reverse(int[] nums, int startIndex, int endIndex)
+        {
+            while (startIndex < endIndex)
             {
-                tmpArray[i] = nums[i];
-            }
-            for (int i = 0, step = k % nums.Length; step > 0; i++, step--)
-            {
-                nums[i] = tmpArray[nums.Length - step];
-            }
-            for (int i = 0, step = k % nums.Length; i < nums.Length - step; i++)
-            {
-                nums[i + step] = tmpArray[i];
+                var tmp = nums[endIndex];
+                nums[endIndex] = nums[startIndex];
+                nums[startIndex] = tmp;
+                startIndex++;
+                endIndex--;
             }
         }
     }
