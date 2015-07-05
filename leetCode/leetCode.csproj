@@ -113,6 +113,7 @@
     <Compile Include="src\172_FactorialTrailingZeroesSolution\FactorialTrailingZeroesSolution.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
+    <Compile Include="test\RotateArrayFacts.cs" />
     <Compile Include="test\FactorialTrailingZeroesFacts.cs" />
     <Compile Include="test\ExcelSheetColumnNumberFacts.cs" />
     <Compile Include="test\MajorityElementFacts.cs" />
