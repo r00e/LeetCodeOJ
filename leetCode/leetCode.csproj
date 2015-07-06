@@ -113,8 +113,10 @@
     <Compile Include="src\172_FactorialTrailingZeroesSolution\FactorialTrailingZeroesSolution.cs" />
     <Compile Include="src\189_RotateArraySolution\RotateArraySolution.cs" />
     <Compile Include="src\190_ReverseBitsSolution\ReverseBitsSolution.cs" />
+    <Compile Include="src\191_NumberOfOneBitsSolution\NumberOfOneBitsSolution.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
+    <Compile Include="test\NumberOfOneBitsFacts.cs" />
     <Compile Include="test\ReverseBitsFacts.cs" />
     <Compile Include="test\RotateArrayFacts.cs" />
     <Compile Include="test\FactorialTrailingZeroesFacts.cs" />
