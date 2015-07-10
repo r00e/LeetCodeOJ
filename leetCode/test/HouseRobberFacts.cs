@@ -1,7 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using leetCode._191_NumberOfOneBitsSolution;
-using leetCode._198_HouseRobberSolution;
+﻿using leetCode._198_HouseRobberSolution;
 using Xunit.Extensions;
 using Xunit.Should;
 
@@ -10,6 +7,7 @@ namespace leetCode.test
     public class HouseRobberFacts
     {
         private readonly HouseRobberSolution solution = new HouseRobberSolution();
+        private readonly HouseRobberSolution2 solution2 = new HouseRobberSolution2();
 
         [Theory]
         [InlineData(new int[]{}, 0)]
@@ -20,6 +18,7 @@ namespace leetCode.test
         public void should_return_max_amount_can_be_robbed_safely(int[] nums, int maxAmount)
         {
             solution.Rob(nums).ShouldBe(maxAmount);
+            solution2.Rob(nums).ShouldBe(maxAmount);
         }
     }
 }
