@@ -116,8 +116,10 @@
     <Compile Include="src\191_NumberOfOneBitsSolution\NumberOfOneBitsSolution.cs" />
     <Compile Include="src\198_HouseRobberSolution\HouseRobberSolution2.cs" />
     <Compile Include="src\198_HouseRobberSolution\HouseRobberSolution.cs" />
+    <Compile Include="src\202_HappyNumberSolution\HappyNumberSolution.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
+    <Compile Include="test\HappyNumberFacts.cs" />
     <Compile Include="test\HouseRobberFacts.cs" />
     <Compile Include="test\NumberOfOneBitsFacts.cs" />
     <Compile Include="test\ReverseBitsFacts.cs" />
