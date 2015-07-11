@@ -6,20 +6,16 @@ namespace leetCode._203_RemoveLinkedListElement
     {
         public ListNode RemoveElements(ListNode head, int val)
         {
-            var currentHead = head;
-            while (currentHead != null && currentHead.val == val)
+            var preNode = new ListNode(0){next = head};
+            var listHead = preNode;
+
+            while (preNode.next != null)
             {
-                currentHead = head.next;
-                head = currentHead;
-            }
-            while (currentHead != null)
-            {
-                if (currentHead.next == null) break;
-                if (currentHead.next.val == val) currentHead.next = currentHead.next.next;
-                else currentHead = currentHead.next;
+                if (preNode.next.val == val) preNode.next = preNode.next.next;
+                else preNode = preNode.next;
             }
 
-            return head;
+            return listHead.next;
         }
     }
 }
