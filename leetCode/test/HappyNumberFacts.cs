@@ -7,6 +7,7 @@ namespace leetCode.test
     public class HappyNumberFacts
     {
         private readonly HappyNumberSolution solution = new HappyNumberSolution();
+        private readonly HappyNumberSolution1 solution1 = new HappyNumberSolution1();
 
         [Theory]
         [InlineData(1, true)]
@@ -21,6 +22,7 @@ namespace leetCode.test
         public void should_return_true_for_happy_number_and_fasle_for_unhappy(int num, bool expectedValue)
         {
             solution.IsHappy(num).ShouldBe(expectedValue);
+            solution1.IsHappy(num).ShouldBe(expectedValue);
         }
     }
 }

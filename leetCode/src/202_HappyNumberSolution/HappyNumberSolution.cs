@@ -8,14 +8,14 @@ namespace leetCode._202_HappyNumberSolution
         {
             var existedSum = new Collection<int>();
 
-            while (true)
+            while (n != 1 && !existedSum.Contains(n))
             {
+                existedSum.Add(n);
                 var sum = DigitsSquareSum(n);
-                if (sum == 1) return true;
-                if (existedSum.Contains(sum)) return false;
-                existedSum.Add(sum);
                 n = sum;
             }
+
+            return n == 1;
         }
 
         private static int DigitsSquareSum(int num)
