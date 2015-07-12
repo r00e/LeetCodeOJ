@@ -119,8 +119,10 @@
     <Compile Include="src\202_HappyNumberSolution\HappyNumberSolution1.cs" />
     <Compile Include="src\202_HappyNumberSolution\HappyNumberSolution.cs" />
     <Compile Include="src\203_RemoveLinkedListElement\RemoveLinkedListElementSolution.cs" />
+    <Compile Include="src\204_CountPrimesSolution\CountPrimesSolution.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
+    <Compile Include="test\CountPrimesFacts.cs" />
     <Compile Include="test\RemoveLinkedListElementFacts.cs" />
     <Compile Include="test\HappyNumberFacts.cs" />
     <Compile Include="test\HouseRobberFacts.cs" />
