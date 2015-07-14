@@ -122,8 +122,11 @@
     <Compile Include="src\204_CountPrimesSolution\CountPrimesSolution.cs" />
     <Compile Include="src\205_IsomorphicString\IsomorphicStringsSolution2.cs" />
     <Compile Include="src\205_IsomorphicString\IsomorphicStringsSolution.cs" />
+    <Compile Include="src\206_ReverseLinkedListSolution\ReverseLinkedListRecursiveSolution.cs" />
+    <Compile Include="src\206_ReverseLinkedListSolution\ReverseLinkedListSolution.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
+    <Compile Include="test\ReverseLinkedListFacts.cs" />
     <Compile Include="test\IsomorphicStringsFacts.cs" />
     <Compile Include="test\CountPrimesFacts.cs" />
     <Compile Include="test\RemoveLinkedListElementFacts.cs" />
