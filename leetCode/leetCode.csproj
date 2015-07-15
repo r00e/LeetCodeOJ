@@ -126,8 +126,10 @@
     <Compile Include="src\206_ReverseLinkedListSolution\ReverseLinkedListSolution.cs" />
     <Compile Include="src\217_ContainsDuplicateSolution\ContainsDuplicateSolution1.cs" />
     <Compile Include="src\217_ContainsDuplicateSolution\ContainsDuplicateSolution.cs" />
+    <Compile Include="src\219_ContainsDuplicateIISolution\ContainsDuplicateIISolution.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
+    <Compile Include="test\ContainsDuplicateIIFacts.cs" />
     <Compile Include="test\ContainsDuplicateFacts.cs" />
     <Compile Include="test\ReverseLinkedListFacts.cs" />
     <Compile Include="test\IsomorphicStringsFacts.cs" />
