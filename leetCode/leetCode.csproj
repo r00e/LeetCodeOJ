@@ -127,8 +127,10 @@
     <Compile Include="src\217_ContainsDuplicateSolution\ContainsDuplicateSolution1.cs" />
     <Compile Include="src\217_ContainsDuplicateSolution\ContainsDuplicateSolution.cs" />
     <Compile Include="src\219_ContainsDuplicateIISolution\ContainsDuplicateIISolution.cs" />
+    <Compile Include="src\223_RectangleAreaSolution\RectangleAreaSolution.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
+    <Compile Include="test\RectangleAreaFacts.cs" />
     <Compile Include="test\ContainsDuplicateIIFacts.cs" />
     <Compile Include="test\ContainsDuplicateFacts.cs" />
     <Compile Include="test\ReverseLinkedListFacts.cs" />
