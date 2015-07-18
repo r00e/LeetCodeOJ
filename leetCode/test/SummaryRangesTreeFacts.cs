@@ -8,7 +8,6 @@ namespace leetCode.test
     public class SummaryRangesFacts
     {
         private readonly SummaryRangesSolution solution = new SummaryRangesSolution();
-        private List<string> expectedValue = new List<string>();
             
         [Theory]
         [PropertyData("MyTestData")]
