@@ -130,9 +130,10 @@
     <Compile Include="src\225_ImplementStackUsingQueueSolution\RectangleAreaSolution.cs" />
     <Compile Include="src\223_RectangleAreaSolution\RectangleAreaSolution.cs" />
     <Compile Include="src\226_InvertBinaryTreeSolution\InvertBinaryTreeSolution.cs" />
+    <Compile Include="src\228_SummaryRangesSolution\SummaryRangesSolution.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
-    <Compile Include="test\InvertBinaryTreeFacts.cs" />
+    <Compile Include="test\SummaryRangesTreeFacts.cs" />
     <Compile Include="test\RectangleAreaFacts.cs" />
     <Compile Include="test\ContainsDuplicateIIFacts.cs" />
     <Compile Include="test\ContainsDuplicateFacts.cs" />
