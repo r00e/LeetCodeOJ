@@ -131,10 +131,14 @@
     <Compile Include="src\223_RectangleAreaSolution\RectangleAreaSolution.cs" />
     <Compile Include="src\226_InvertBinaryTreeSolution\InvertBinaryTreeSolution.cs" />
     <Compile Include="src\228_SummaryRangesSolution\SummaryRangesSolution.cs" />
+    <Compile Include="src\232_ImplementQueueUsingStacksSolution\ImplementQueueUsingStacksSolution.cs" />
     <Compile Include="src\231_PowerOfTwoSolution\PowerOfTwoSolution.cs" />
+    <Compile Include="src\234_PalindromeLinkedListSolution\PalindromeLinkedListSpaceOoneSolution.cs" />
+    <Compile Include="src\234_PalindromeLinkedListSolution\PalindromeLinkedListSolution.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
     <Compile Include="test\InvertBinaryTreeFacts.cs" />
+    <Compile Include="test\PalindromeLinkedListFacts.cs" />
     <Compile Include="test\PowerOfTwoFacts.cs" />
     <Compile Include="test\SummaryRangesTreeFacts.cs" />
     <Compile Include="test\RectangleAreaFacts.cs" />
