@@ -7,7 +7,10 @@ namespace leetCode.test
 {
     public class LowestCommonAncestorOfBinarySearchTreeFacts
     {
-        private readonly LowestCommonAncestorOfBinarySearchTreeSolution solution = new LowestCommonAncestorOfBinarySearchTreeSolution();
+//        private readonly LowestCommonAncestorOfBinarySearchTreeSolution solution = new LowestCommonAncestorOfBinarySearchTreeSolution();
+
+        private readonly LowestCommonAncestorOfBinarySearchTreeIterativeSolution solution =
+            new LowestCommonAncestorOfBinarySearchTreeIterativeSolution();
             
         [Fact]
         public void should_return_6_for_3_and_7_in_tree637()

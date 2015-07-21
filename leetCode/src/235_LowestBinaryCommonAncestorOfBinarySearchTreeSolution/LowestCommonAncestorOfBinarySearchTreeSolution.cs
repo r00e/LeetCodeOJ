@@ -8,8 +8,6 @@ namespace leetCode._235_LowestBinaryCommonAncestorOfBinarySearchTreeSolution
         {
             if (p.val < root.val && q.val < root.val) return LowestCommonAncestor(root.left, p, q);
             if (p.val > root.val && q.val > root.val) return LowestCommonAncestor(root.right, p, q);
-            if (p.val == root.val) return p;
-            if (q.val == root.val) return q;
             return root;
         }
     }
