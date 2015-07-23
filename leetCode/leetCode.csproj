@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="src\005_LongestPalindromicSubstringSolution\LongestPalindromicSubstringSolution.cs" />
+    <Compile Include="src\011_ContainerWithMostWaterSolution\ContainerWithMostWaterSolution.cs" />
     <Compile Include="src\013_RomanToInteger\RomanToIntegerSolution.cs" />
     <Compile Include="src\001_TwoSum\TwoSumSolution.cs" />
     <Compile Include="src\002_AddTwoNumbers\AddTwoNumbersSolution3.cs">
@@ -141,6 +142,7 @@
     <Compile Include="src\237_DeleteNodeInLinkedListSolution\DeleteNodeInLinkedListSolution.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
+    <Compile Include="test\ContainerWithMostWaterFacts.cs" />
     <Compile Include="test\LongestPalindromicSubstringFacts.cs" />
     <Compile Include="test\LowestCommonAncestorOfBinarySearchTreeFacts.cs" />
     <Compile Include="test\InvertBinaryTreeFacts.cs" />
