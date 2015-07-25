@@ -75,6 +75,7 @@
     <Compile Include="src\012_RomanToIntSolution\IntegerToRomanSolutionShorter.cs" />
     <Compile Include="src\012_RomanToIntSolution\IntegerToRomanSolution.cs" />
     <Compile Include="src\015_3SumSolution\ThreeSumSolution.cs" />
+    <Compile Include="src\016_3SumClosestSolution\ThreeSumClosestSolution.cs" />
     <Compile Include="src\019_RemoveNthNodeFromEndOfListSolution\ListNode.cs" />
     <Compile Include="src\019_RemoveNthNodeFromEndOfListSolution\RemoveNthNodeFromEndOfListSolution2.cs" />
     <Compile Include="src\019_RemoveNthNodeFromEndOfListSolution\RemoveNthNodeFromEndOfListSolution.cs" />
@@ -146,6 +147,7 @@
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
     <Compile Include="test\ContainerWithMostWaterFacts.cs" />
+    <Compile Include="test\ThreeSumClosestFacts.cs" />
     <Compile Include="test\ThreeSumFacts.cs" />
     <Compile Include="test\LongestPalindromicSubstringFacts.cs" />
     <Compile Include="test\LowestCommonAncestorOfBinarySearchTreeFacts.cs" />
