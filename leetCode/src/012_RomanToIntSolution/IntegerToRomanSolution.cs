@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace leetCode._013_RomanToIntSolution
+namespace leetCode._012_RomanToIntSolution
 {
     public class IntegerToRomanSolution
     {
