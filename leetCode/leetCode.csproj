@@ -72,6 +72,8 @@
     <Compile Include="src\008_StringToInteger\StringToIntegerSolution.cs" />
     <Compile Include="src\009_PalindromeNumber\PalindromeNumberSolution2.cs" />
     <Compile Include="src\009_PalindromeNumber\PalindromeNumberSolution.cs" />
+    <Compile Include="src\013_RomanToIntSolution\IntegerToRomanSolutionShorter.cs" />
+    <Compile Include="src\013_RomanToIntSolution\IntegerToRomanSolution.cs" />
     <Compile Include="src\019_RemoveNthNodeFromEndOfListSolution\ListNode.cs" />
     <Compile Include="src\019_RemoveNthNodeFromEndOfListSolution\RemoveNthNodeFromEndOfListSolution2.cs" />
     <Compile Include="src\019_RemoveNthNodeFromEndOfListSolution\RemoveNthNodeFromEndOfListSolution.cs" />
@@ -149,6 +151,7 @@
     <Compile Include="test\DeleteNodeInLinkedListFacts.cs" />
     <Compile Include="test\PalindromeLinkedListFacts.cs" />
     <Compile Include="test\PowerOfTwoFacts.cs" />
+    <Compile Include="test\IntegerToRomanFacts.cs" />
     <Compile Include="test\SummaryRangesTreeFacts.cs" />
     <Compile Include="test\RectangleAreaFacts.cs" />
     <Compile Include="test\ContainsDuplicateIIFacts.cs" />
