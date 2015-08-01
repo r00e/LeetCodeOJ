@@ -86,6 +86,7 @@
     <Compile Include="src\021_MergeTwoSortedListSolution\ListNode.cs" />
     <Compile Include="src\021_MergeTwoSortedListSolution\MergeTwoSortedListSolution.cs" />
     <Compile Include="src\020_ValidParenthesesSolution\ValidParenthesesSolution.cs" />
+    <Compile Include="src\022_GenerateParenthesesSolution\GenerateParenthesesSolution.cs" />
     <Compile Include="src\025_RemoveDuplicatsFromSortedArray\RemoveDuplicatesSolution.cs" />
     <Compile Include="src\027_RemoveElementSolution\RemoveElementSolution.cs" />
     <Compile Include="src\028_ImplementStrStrSolution\ImplementStrStrSolution.cs" />
@@ -149,6 +150,7 @@
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
     <Compile Include="test\ContainerWithMostWaterFacts.cs" />
+    <Compile Include="test\GenerateParenthesesFacts.cs" />
     <Compile Include="test\FourSumFacts.cs" />
     <Compile Include="test\LetterCombinationFacts.cs" />
     <Compile Include="test\ThreeSumClosestFacts.cs" />
