@@ -8,63 +8,28 @@
 
             var latter = nums.Length - 1;
             var former = nums.Length - 2;
-
-            for (; former >= 0; latter--, former--)
+            for (; former >= 0; former--)
             {
-                if (nums[latter] > nums[former] && latter == nums.Length - 1 && former == nums.Length - 2)
-                {
-                    Swap(ref nums[latter], ref nums[former]);
-                    break;
-                }
-
-                if (nums[latter] > nums[former])
-                {
-                    latter = nums.Length - 1;
-                    break;
-                }
+                if (nums[former] < nums[former + 1]) break;
             }
 
-            if (former < 0)
+            if (former >= 0)
             {
-                Sort(nums, 0, nums.Length - 1);
-            }
-
-            while (former >=0 && nums[latter] <= nums[former] && latter > former)
-            {
-                latter--;
-            }
-
-            if (former >=0 && latter != former)
-            {
+                while (nums[latter] <= nums[former]) latter--;
                 Swap(ref nums[latter], ref nums[former]);
-                Sort(nums, former + 1, nums.Length - 1);
             }
+
+            Reverse(nums, former + 1, nums.Length - 1);
         }
 
-        private void Sort(int[] nums, int startIndex, int endIndex)
+        private void Reverse(int[] nums, int startIndex, int endIndex)
         {
-            if (startIndex > endIndex) return;
-
-            var index = SortPart(nums, startIndex, endIndex);
-            Sort(nums, startIndex, index - 1);
-            Sort(nums, index + 1, endIndex);
-        }
-
-        private int SortPart(int[] nums, int startIndex, int endIndex)
-        {
-            var key = nums[startIndex];
-                
             while (startIndex < endIndex)
             {
-                while (nums[endIndex] >= key && startIndex < endIndex) endIndex--;
-                nums[startIndex] = nums[endIndex];
-                while (nums[startIndex] <= key && startIndex < endIndex) startIndex++;
-                nums[endIndex] = nums[startIndex];
+                Swap(ref nums[startIndex], ref nums[endIndex]);
+                startIndex++;
+                endIndex--;
             }
-
-            nums[startIndex] = key;
-
-            return startIndex;
         }
 
         private static void Swap(ref int latter, ref int former)

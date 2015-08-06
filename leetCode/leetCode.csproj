@@ -93,6 +93,8 @@
     <Compile Include="src\028_ImplementStrStrSolution\ImplementStrStrSolution.cs" />
     <Compile Include="src\029_DivideTwoIntegersSolution\DivideTwoIntegersSolution.cs" />
     <Compile Include="src\031_NextPermutationSolution\NextPermutationSolution.cs" />
+    <Compile Include="src\034_SearchForARangeSolution\SearchForARangeRealLogNSolution.cs" />
+    <Compile Include="src\034_SearchForARangeSolution\SearchForARangeSolution.cs" />
     <Compile Include="src\036_ValidSudokuSolution\ValidSudokuSolution.cs" />
     <Compile Include="src\038_CountAndSaySolution\CountAndSaySolution.cs" />
     <Compile Include="src\058_LengthOfLastWordSolution\LengthOfLastWordSolution.cs" />
@@ -153,6 +155,8 @@
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
     <Compile Include="test\ContainerWithMostWaterFacts.cs" />
+    <Compile Include="test\SearchForARangeFacts - Copy.cs" />
+    <Compile Include="test\SearchForARangeFacts.cs" />
     <Compile Include="test\NextPermutationFacts.cs" />
     <Compile Include="test\DivideTwoIntegersFacts.cs" />
     <Compile Include="test\SwapNodesInPairsFacts.cs" />
