@@ -155,7 +155,7 @@
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
     <Compile Include="test\ContainerWithMostWaterFacts.cs" />
-    <Compile Include="test\SearchForARangeFacts - Copy.cs" />
+    <Compile Include="test\SerchInserPostionFacts.cs" />
     <Compile Include="test\SearchForARangeFacts.cs" />
     <Compile Include="test\NextPermutationFacts.cs" />
     <Compile Include="test\DivideTwoIntegersFacts.cs" />
