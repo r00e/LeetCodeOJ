@@ -99,6 +99,7 @@
     <Compile Include="src\036_ValidSudokuSolution\ValidSudokuSolution.cs" />
     <Compile Include="src\038_CountAndSaySolution\CountAndSaySolution.cs" />
     <Compile Include="src\039_CombinationSumSolution\CombinationSumSolution.cs" />
+    <Compile Include="src\040_CombinationSumIISolution\CombinationSumIISolution.cs" />
     <Compile Include="src\058_LengthOfLastWordSolution\LengthOfLastWordSolution.cs" />
     <Compile Include="src\066_PlusOneSolution\PlusOneSolution.cs" />
     <Compile Include="src\067_AddBinarySolution\AddBinarySolution2.cs" />
@@ -156,6 +157,7 @@
     <Compile Include="src\237_DeleteNodeInLinkedListSolution\DeleteNodeInLinkedListSolution.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
+    <Compile Include="test\CombinationSumIIFacts.cs" />
     <Compile Include="test\ContainerWithMostWaterFacts.cs" />
     <Compile Include="test\CombinationSumFacts.cs" />
     <Compile Include="test\SearchInsertPositionFacts.cs" />
