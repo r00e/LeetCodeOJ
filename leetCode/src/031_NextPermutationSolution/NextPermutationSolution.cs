@@ -1,4 +1,6 @@
-﻿namespace leetCode._031_NextPermutationSolution
+﻿using leetCode.Common;
+
+namespace leetCode._031_NextPermutationSolution
 {
     public class NextPermutationSolution
     {
@@ -16,27 +18,10 @@
             if (former >= 0)
             {
                 while (nums[latter] <= nums[former]) latter--;
-                Swap(ref nums[latter], ref nums[former]);
+                CommonMethod.Swap(ref nums[latter], ref nums[former]);
             }
 
-            Reverse(nums, former + 1, nums.Length - 1);
-        }
-
-        private void Reverse(int[] nums, int startIndex, int endIndex)
-        {
-            while (startIndex < endIndex)
-            {
-                Swap(ref nums[startIndex], ref nums[endIndex]);
-                startIndex++;
-                endIndex--;
-            }
-        }
-
-        private static void Swap(ref int latter, ref int former)
-        {
-            var tmp = latter;
-            latter = former;
-            former = tmp;
+            CommonMethod.Reverse(nums, former + 1, nums.Length - 1);
         }
     }
 }
