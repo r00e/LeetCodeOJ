@@ -102,6 +102,7 @@
     <Compile Include="src\040_CombinationSumIISolution\CombinationSumIISolution.cs" />
     <Compile Include="src\043_MultiplySolution\MultiplySolution.cs" />
     <Compile Include="src\046_PermutationSolution\PermutationsSolution.cs" />
+    <Compile Include="src\048_RotateImageSolution\RotateImageSolution.cs" />
     <Compile Include="src\058_LengthOfLastWordSolution\LengthOfLastWordSolution.cs" />
     <Compile Include="src\066_PlusOneSolution\PlusOneSolution.cs" />
     <Compile Include="src\067_AddBinarySolution\AddBinarySolution2.cs" />
@@ -160,6 +161,7 @@
     <Compile Include="src\Common\CommonMethod.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
+    <Compile Include="test\RotateImageFacts.cs" />
     <Compile Include="test\PermutationsFacts.cs" />
     <Compile Include="test\MultiplyFacts.cs" />
     <Compile Include="test\CombinationSumIIFacts.cs" />
