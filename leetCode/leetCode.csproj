@@ -108,6 +108,7 @@
     <Compile Include="src\050_PowSolution\PowSolution.cs" />
     <Compile Include="src\053_MaximumSubArraySolution\MaximumSubarraySolution.cs" />
     <Compile Include="src\054_SpiralOrderSolution\SpiralMatrixSolution.cs" />
+    <Compile Include="src\055_JumpGameSolution\JumpGameSolution.cs" />
     <Compile Include="src\058_LengthOfLastWordSolution\LengthOfLastWordSolution.cs" />
     <Compile Include="src\066_PlusOneSolution\PlusOneSolution.cs" />
     <Compile Include="src\067_AddBinarySolution\AddBinarySolution2.cs" />
@@ -166,6 +167,7 @@
     <Compile Include="src\Common\CommonMethod.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
+    <Compile Include="test\JumpGameFacts.cs" />
     <Compile Include="test\SpiralMatrixFacts.cs" />
     <Compile Include="test\MaximumSubarrayFacts.cs" />
     <Compile Include="test\PowFacts.cs" />
