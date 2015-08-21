@@ -49,6 +49,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="060_PermutationSequenceSolution\PermutationSequenceSolution.cs" />
     <Compile Include="src\005_LongestPalindromicSubstringSolution\LongestPalindromicSubstringSolution.cs" />
     <Compile Include="src\011_ContainerWithMostWaterSolution\ContainerWithMostWaterSolution.cs" />
     <Compile Include="src\013_RomanToInteger\RomanToIntegerSolution.cs" />
@@ -168,6 +169,7 @@
     <Compile Include="src\Common\CommonMethod.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
+    <Compile Include="test\PermutationSequenceFacts.cs" />
     <Compile Include="test\SpiralMatrixIIFacts.cs" />
     <Compile Include="test\JumpGameFacts.cs" />
     <Compile Include="test\SpiralMatrixFacts.cs" />
