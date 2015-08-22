@@ -115,6 +115,7 @@
     <Compile Include="src\061_RotateListSolution\RotateListSolution.cs" />
     <Compile Include="src\062_UniquePathSolution\UniquePathsSolution.cs" />
     <Compile Include="src\063_UniquePathsIISolution\UniquePathsIISolution.cs" />
+    <Compile Include="src\064_MinimumPathSumSolution\MinimumPathSumSolution.cs" />
     <Compile Include="src\066_PlusOneSolution\PlusOneSolution.cs" />
     <Compile Include="src\067_AddBinarySolution\AddBinarySolution2.cs" />
     <Compile Include="src\067_AddBinarySolution\AddBinarySolution.cs" />
@@ -172,6 +173,7 @@
     <Compile Include="src\Common\CommonMethod.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
+    <Compile Include="test\MinimumPathSumFacts.cs" />
     <Compile Include="test\UniquePathsIIFacts.cs" />
     <Compile Include="test\UniquePathsFacts.cs" />
     <Compile Include="test\RotateListFacts.cs" />
