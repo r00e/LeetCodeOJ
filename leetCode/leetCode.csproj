@@ -177,6 +177,7 @@
     <Compile Include="src\Common\CommonMethod.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
+    <Compile Include="test\SortColorsFacts.cs" />
     <Compile Include="test\Search2DMatrixFacts.cs" />
     <Compile Include="test\SetMatrixZeroesFacts.cs" />
     <Compile Include="test\SimplifyPathFacts.cs" />
