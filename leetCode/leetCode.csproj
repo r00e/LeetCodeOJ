@@ -119,6 +119,7 @@
     <Compile Include="src\066_PlusOneSolution\PlusOneSolution.cs" />
     <Compile Include="src\067_AddBinarySolution\AddBinarySolution2.cs" />
     <Compile Include="src\067_AddBinarySolution\AddBinarySolution.cs" />
+    <Compile Include="src\069_SqrtXSolution\SqrtXSolution.cs" />
     <Compile Include="src\070_ClimbingStairsSolution\ClimbingStairsSolution.cs" />
     <Compile Include="src\083_RemoveDuplicatesFromSortedListSolution\RemoveDuplicatesFromSortedListSolution.cs" />
     <Compile Include="src\088_MergeSortedArraySolution\MergeSortedArraySolution2.cs" />
