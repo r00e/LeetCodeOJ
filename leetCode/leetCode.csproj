@@ -122,6 +122,7 @@
     <Compile Include="src\069_SqrtXSolution\SqrtXSolution.cs" />
     <Compile Include="src\070_ClimbingStairsSolution\ClimbingStairsSolution.cs" />
     <Compile Include="src\071_SimplifyPathSolution\SimplifyPathSolution.cs" />
+    <Compile Include="src\073_SetMatrixZeroesSolution\SetMatrixZeroesSolution.cs" />
     <Compile Include="src\083_RemoveDuplicatesFromSortedListSolution\RemoveDuplicatesFromSortedListSolution.cs" />
     <Compile Include="src\088_MergeSortedArraySolution\MergeSortedArraySolution2.cs" />
     <Compile Include="src\088_MergeSortedArraySolution\MergeSortedArraySolution.cs" />
@@ -175,6 +176,7 @@
     <Compile Include="src\Common\CommonMethod.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
+    <Compile Include="test\SetMatrixZeroesFacts.cs" />
     <Compile Include="test\SimplifyPathFacts.cs" />
     <Compile Include="test\SqrtXFacts.cs" />
     <Compile Include="test\MinimumPathSumFacts.cs" />
