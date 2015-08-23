@@ -173,6 +173,7 @@
     <Compile Include="src\Common\CommonMethod.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
+    <Compile Include="test\SqrtXFacts.cs" />
     <Compile Include="test\MinimumPathSumFacts.cs" />
     <Compile Include="test\UniquePathsIIFacts.cs" />
     <Compile Include="test\UniquePathsFacts.cs" />
