@@ -22,21 +22,13 @@ namespace leetCode._073_SetMatrixZeroesSolution
                 }
             }
 
-            toBeZeroRows.ToList().ForEach(row =>
+            for (var i = 0; i < matrix.GetLength(0); i++)
             {
-                for (var i = 0; i < matrix.GetLength(1); i++)
+                for (var j = 0; j < matrix.GetLength(1); j++)
                 {
-                    matrix[row, i] = 0;
+                    if (toBeZeroRows.Contains(i) || toBeZeroColumns.Contains(j)) matrix[i, j] = 0;
                 }
-            });
-
-            toBeZeroColumns.ToList().ForEach(column =>
-            {
-                for (var i = 0; i < matrix.GetLength(0); i++)
-                {
-                    matrix[i, column] = 0;
-                }
-            });
+            }
         }
     }
 }
