@@ -125,6 +125,7 @@
     <Compile Include="src\073_SetMatrixZeroesSolution\SetMatrixZeroesSolution.cs" />
     <Compile Include="src\074_Search2DMatrixSolution\Search2DMatrixSolution.cs" />
     <Compile Include="src\075_SortColorsSolution\SortColorsSolution.cs" />
+    <Compile Include="src\077_CombinationsSolution\CombinationsSolution.cs" />
     <Compile Include="src\083_RemoveDuplicatesFromSortedListSolution\RemoveDuplicatesFromSortedListSolution.cs" />
     <Compile Include="src\088_MergeSortedArraySolution\MergeSortedArraySolution2.cs" />
     <Compile Include="src\088_MergeSortedArraySolution\MergeSortedArraySolution.cs" />
