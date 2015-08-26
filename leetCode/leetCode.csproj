@@ -126,6 +126,9 @@
     <Compile Include="src\074_Search2DMatrixSolution\Search2DMatrixSolution.cs" />
     <Compile Include="src\075_SortColorsSolution\SortColorsSolution.cs" />
     <Compile Include="src\077_CombinationsSolution\CombinationsSolution.cs" />
+    <Compile Include="src\078_SubsetsSolution\SubsetsBitManipulationSolution.cs" />
+    <Compile Include="src\078_SubsetsSolution\SubsetsIterativeSolution.cs" />
+    <Compile Include="src\078_SubsetsSolution\SubsetsRecursiveSolution.cs" />
     <Compile Include="src\083_RemoveDuplicatesFromSortedListSolution\RemoveDuplicatesFromSortedListSolution.cs" />
     <Compile Include="src\088_MergeSortedArraySolution\MergeSortedArraySolution2.cs" />
     <Compile Include="src\088_MergeSortedArraySolution\MergeSortedArraySolution.cs" />
@@ -179,6 +182,7 @@
     <Compile Include="src\Common\CommonMethod.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
+    <Compile Include="test\SubsetsFacts.cs" />
     <Compile Include="test\CombinationsFacts.cs" />
     <Compile Include="test\SortColorsFacts.cs" />
     <Compile Include="test\Search2DMatrixFacts.cs" />
