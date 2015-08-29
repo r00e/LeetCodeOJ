@@ -132,6 +132,7 @@
     <Compile Include="src\078_SubsetsSolution\SubsetsRecursiveSolution.cs" />
     <Compile Include="src\079_WordSearchSolution\WordSearchSolution.cs" />
     <Compile Include="src\080_RemoveDuplicatesFromSortedArrayIISolution\RemoveDuplicatesFromSortedArrayIISolution.cs" />
+    <Compile Include="src\081_SearchInRotatedSortedArrayIISolution\SearchInRotatedSortedArrayIISolution.cs" />
     <Compile Include="src\083_RemoveDuplicatesFromSortedListSolution\RemoveDuplicatesFromSortedListSolution.cs" />
     <Compile Include="src\088_MergeSortedArraySolution\MergeSortedArraySolution2.cs" />
     <Compile Include="src\088_MergeSortedArraySolution\MergeSortedArraySolution.cs" />
@@ -185,6 +186,7 @@
     <Compile Include="src\Common\CommonMethod.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
+    <Compile Include="test\SearchInRotatedSortedArrayIIFacts.cs" />
     <Compile Include="test\SearchInRotatedSortedArrayFacts.cs" />
     <Compile Include="test\RemoveDuplicatesFromSortedArrayIIFacts.cs" />
     <Compile Include="test\WordSearchFacts.cs" />
