@@ -93,6 +93,7 @@
     <Compile Include="src\028_ImplementStrStrSolution\ImplementStrStrSolution.cs" />
     <Compile Include="src\029_DivideTwoIntegersSolution\DivideTwoIntegersSolution.cs" />
     <Compile Include="src\031_NextPermutationSolution\NextPermutationSolution.cs" />
+    <Compile Include="src\033_SearchInRotatedSortedArraySolution\SearchInRotatedSortedArraySolution.cs" />
     <Compile Include="src\034_SearchForARangeSolution\SearchForARangeRealLogNSolution.cs" />
     <Compile Include="src\034_SearchForARangeSolution\SearchForARangeSolution.cs" />
     <Compile Include="src\035_SearchInsertPosition\SearchInsertPositionSolution.cs" />
@@ -184,6 +185,7 @@
     <Compile Include="src\Common\CommonMethod.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
+    <Compile Include="test\SearchInRotatedSortedArrayFacts.cs" />
     <Compile Include="test\RemoveDuplicatesFromSortedArrayIIFacts.cs" />
     <Compile Include="test\WordSearchFacts.cs" />
     <Compile Include="test\SubsetsFacts.cs" />
