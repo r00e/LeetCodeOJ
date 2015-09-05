@@ -103,6 +103,7 @@
     <Compile Include="src\040_CombinationSumIISolution\CombinationSumIISolution.cs" />
     <Compile Include="src\043_MultiplySolution\MultiplySolution.cs" />
     <Compile Include="src\046_PermutationSolution\PermutationsSolution.cs" />
+    <Compile Include="src\047_PermutationsIISolution\PermutationsIISolution.cs" />
     <Compile Include="src\048_RotateImageSolution\RotateImageSolution.cs" />
     <Compile Include="src\049_GroupAnagramsSolution\GroupAnagramsSolution.cs" />
     <Compile Include="src\050_PowSolution\PowSolutionRecursive.cs" />
@@ -186,6 +187,7 @@
     <Compile Include="src\Common\CommonMethod.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
+    <Compile Include="test\PermutationsIIFacts.cs" />
     <Compile Include="test\SearchInRotatedSortedArrayIIFacts.cs" />
     <Compile Include="test\SearchInRotatedSortedArrayFacts.cs" />
     <Compile Include="test\RemoveDuplicatesFromSortedArrayIIFacts.cs" />
