@@ -15,14 +15,14 @@ namespace leetCode.test
         public void should_return_empty_for_empty_list()
         {
             var result = solution.DeleteDuplicates(null);
-            VerifyResult(result, string.Empty);
+            CommonMethod.VerifyListResult(result, string.Empty);
         }
 
         [Fact]
         public void should_return_1_for_list_1()
         {
             var result = solution.DeleteDuplicates(new ListNode(1));
-            VerifyResult(result, "1");
+            CommonMethod.VerifyListResult(result, "1");
         }
             
         [Fact]
@@ -33,7 +33,7 @@ namespace leetCode.test
                 next = new ListNode(1)
             });
 
-            VerifyResult(result, string.Empty);
+            CommonMethod.VerifyListResult(result, string.Empty);
         }
 
         [Fact]
@@ -47,7 +47,7 @@ namespace leetCode.test
                 }
             });
 
-            VerifyResult(result, "2");
+            CommonMethod.VerifyListResult(result, "2");
         }
             
         [Fact]
@@ -64,7 +64,7 @@ namespace leetCode.test
                 }
             });
 
-            VerifyResult(result, string.Empty);
+            CommonMethod.VerifyListResult(result, string.Empty);
         }
             
         [Fact]
@@ -84,7 +84,7 @@ namespace leetCode.test
                 }
             });
 
-            VerifyResult(result, "0");
+            CommonMethod.VerifyListResult(result, "0");
         }
             
         [Fact]
@@ -107,7 +107,7 @@ namespace leetCode.test
                 }
             });
 
-            VerifyResult(result, "02");
+            CommonMethod.VerifyListResult(result, "02");
         }
             
         [Fact]
@@ -130,20 +130,7 @@ namespace leetCode.test
                 }
             });
 
-            VerifyResult(result, "03");
-        }
-
-        void VerifyResult(ListNode actualResult, string expectedResult)
-        {
-            var actualResultString = new StringBuilder();
-
-            while (actualResult != null)
-            {
-                actualResultString.Append(actualResult.val);
-                actualResult = actualResult.next;
-            }
-
-            actualResultString.ToString().ShouldBe(expectedResult);
+            CommonMethod.VerifyListResult(result, "03");
         }
     }
 }

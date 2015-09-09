@@ -1,4 +1,7 @@
-﻿namespace leetCode.Common
+﻿using System.Text;
+using Xunit.Should;
+
+namespace leetCode.Common
 {
     public class CommonMethod
     {
@@ -17,6 +20,19 @@
                 startIndex++;
                 endIndex--;
             }
+        }
+
+        public static void VerifyListResult(ListNode head, string expectedResult)
+        {
+            var actualResultString = new StringBuilder();
+
+            while (head != null)
+            {
+                actualResultString.Append(head.val);
+                head = head.next;
+            }
+
+            actualResultString.ToString().ShouldBe(expectedResult);
         }
     }
 }

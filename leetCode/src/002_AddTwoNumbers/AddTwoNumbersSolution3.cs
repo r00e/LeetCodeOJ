@@ -1,4 +1,6 @@
-﻿namespace leetCode._002_AddTwoNumbers
+﻿using leetCode.Common;
+
+namespace leetCode._002_AddTwoNumbers
 {
     public class AddTwoNumbersSolution3
     {

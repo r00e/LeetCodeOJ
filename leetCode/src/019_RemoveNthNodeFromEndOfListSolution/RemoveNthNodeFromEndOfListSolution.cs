@@ -1,4 +1,6 @@
-﻿namespace leetCode._019_RemoveNthNodeFromEndOfListSolution
+﻿using leetCode.Common;
+
+namespace leetCode._019_RemoveNthNodeFromEndOfListSolution
 {
     public class RemoveNthNodeFromEndOfListSolution
     {

@@ -11,7 +11,7 @@ namespace leetCode.test
         [Fact]
         public void should_return_null_for_any_n_less_than_1()
         {
-            solution.GenerateMatrix(0).ShouldBeNull();
+            solution.GenerateMatrix(0).ShouldBe(new int[,]{});
         }
 
         [Fact]

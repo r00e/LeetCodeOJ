@@ -78,12 +78,10 @@
     <Compile Include="src\016_3SumClosestSolution\ThreeSumClosestSolution.cs" />
     <Compile Include="src\017_letterCombinationSolution\LetterCombinationSolution.cs" />
     <Compile Include="src\018_fourSumSolution\FourSumSolution.cs" />
-    <Compile Include="src\019_RemoveNthNodeFromEndOfListSolution\ListNode.cs" />
     <Compile Include="src\019_RemoveNthNodeFromEndOfListSolution\RemoveNthNodeFromEndOfListSolution2.cs" />
     <Compile Include="src\019_RemoveNthNodeFromEndOfListSolution\RemoveNthNodeFromEndOfListSolution.cs" />
     <Compile Include="src\014_LongestCommonPrefixSolution\LongestCommonPrefixSolution2.cs" />
     <Compile Include="src\014_LongestCommonPrefixSolution\LongestCommonPrefixSolution.cs" />
-    <Compile Include="src\021_MergeTwoSortedListSolution\ListNode.cs" />
     <Compile Include="src\021_MergeTwoSortedListSolution\MergeTwoSortedListSolution.cs" />
     <Compile Include="src\020_ValidParenthesesSolution\ValidParenthesesSolution.cs" />
     <Compile Include="src\022_GenerateParenthesesSolution\GenerateParenthesesSolution.cs" />
@@ -134,6 +132,7 @@
     <Compile Include="src\079_WordSearchSolution\WordSearchSolution.cs" />
     <Compile Include="src\080_RemoveDuplicatesFromSortedArrayIISolution\RemoveDuplicatesFromSortedArrayIISolution.cs" />
     <Compile Include="src\081_SearchInRotatedSortedArrayIISolution\SearchInRotatedSortedArrayIISolution.cs" />
+    <Compile Include="src\082_RemoveDuplicatesFromSortedListII\RemoveDuplicatesFromSortedListIISolution.cs" />
     <Compile Include="src\083_RemoveDuplicatesFromSortedListSolution\RemoveDuplicatesFromSortedListSolution.cs" />
     <Compile Include="src\088_MergeSortedArraySolution\MergeSortedArraySolution2.cs" />
     <Compile Include="src\088_MergeSortedArraySolution\MergeSortedArraySolution.cs" />

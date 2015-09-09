@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+using leetCode.Common;
 
 namespace leetCode._021_MergeTwoSortedListSolution
 {

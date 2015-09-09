@@ -1,4 +1,6 @@
-﻿namespace leetCode._002_AddTwoNumbers
+﻿using leetCode.Common;
+
+namespace leetCode._002_AddTwoNumbers
 {
     public class AddTwoNumbersSolution
     {
@@ -32,17 +34,6 @@
         private ListNode GetNext(ListNode node)
         {
             return node == null ? null : node.next;
-        }
-    }
-
-    public class ListNode
-    {
-        public int val;
-        public ListNode next;
-
-        public ListNode(int x)
-        {
-            val = x;
         }
     }
 }
