@@ -187,6 +187,7 @@
     <Compile Include="src\Common\CommonMethod.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
+    <Compile Include="test\RemoveDuplicatesFromSortedListIIFacts.cs" />
     <Compile Include="test\PermutationsIIFacts.cs" />
     <Compile Include="test\SearchInRotatedSortedArrayIIFacts.cs" />
     <Compile Include="test\SearchInRotatedSortedArrayFacts.cs" />
