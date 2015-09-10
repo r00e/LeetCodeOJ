@@ -138,6 +138,7 @@
     <Compile Include="src\088_MergeSortedArraySolution\MergeSortedArraySolution2.cs" />
     <Compile Include="src\088_MergeSortedArraySolution\MergeSortedArraySolution.cs" />
     <Compile Include="src\089_GrayCodeSolution\GrayCodeSolution.cs" />
+    <Compile Include="src\090_SubsetsIISolution\SubsetsIISolution.cs" />
     <Compile Include="src\100_SameTreeSolution\SameTreeSolution.cs" />
     <Compile Include="src\101_SymmetricTreeSolution\SymmetricTreeIterativeSolution.cs" />
     <Compile Include="src\101_SymmetricTreeSolution\SymmetricTreeSolution.cs" />
@@ -188,6 +189,7 @@
     <Compile Include="src\Common\CommonMethod.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
+    <Compile Include="test\SubsetsIIFacts.cs" />
     <Compile Include="test\GrayCodeFacts.cs" />
     <Compile Include="test\PartitionListFacts.cs" />
     <Compile Include="test\RemoveDuplicatesFromSortedListIIFacts.cs" />
