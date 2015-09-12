@@ -191,6 +191,7 @@
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
     <Compile Include="test\DecodeWaysFacts.cs" />
+    <Compile Include="test\DeleteNodeInLinkedListFacts.cs" />
     <Compile Include="test\SubsetsIIFacts.cs" />
     <Compile Include="test\GrayCodeFacts.cs" />
     <Compile Include="test\PartitionListFacts.cs" />
@@ -237,7 +238,7 @@
     <Compile Include="test\LongestPalindromicSubstringFacts.cs" />
     <Compile Include="test\LowestCommonAncestorOfBinarySearchTreeFacts.cs" />
     <Compile Include="test\InvertBinaryTreeFacts.cs" />
-    <Compile Include="test\DeleteNodeInLinkedListFacts.cs" />
+    <Compile Include="test\ReverseLinkedListIIFacts.cs" />
     <Compile Include="test\PalindromeLinkedListFacts.cs" />
     <Compile Include="test\PowerOfTwoFacts.cs" />
     <Compile Include="test\IntegerToRomanFacts.cs" />
