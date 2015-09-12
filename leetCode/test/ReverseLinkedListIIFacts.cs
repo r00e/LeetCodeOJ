@@ -1,4 +1,5 @@
 ﻿using leetCode.Common;
+using leetCode._092_ReverseLinkedListIISolution;
 using Xunit;
 using Xunit.Should;
 
@@ -70,43 +71,6 @@ namespace leetCode.test
                 }, 2, 3);
 
             CommonMethod.VerifyListResult(result, "1324");
-        }
-    }
-
-    internal class ReverseLinkedListIISolution
-    {
-        public ListNode ReverseBetween(ListNode head, int m, int n)
-        {
-            if (m == n) return head;
-
-            var count = 1;
-            var probe = head;
-            var newHead = new ListNode(0);
-            var newProbe = newHead;
-
-            while (count < m)
-            {
-                newProbe.next = probe;
-                probe = probe.next;
-                newProbe = newProbe.next;
-                newProbe.next = null;
-                count++;
-            }
-
-            ListNode reverseHead = null, reverseTail = probe;
-            while (count <= n)
-            {
-                var nodeNextProbe = probe.next;
-                probe.next = reverseHead;
-                reverseHead = probe;
-                probe = nodeNextProbe;
-                count++;
-            }
-
-            reverseTail.next = probe;
-            newProbe.next = reverseHead;
-
-            return newHead.next;
         }
     }
 }

@@ -140,6 +140,7 @@
     <Compile Include="src\089_GrayCodeSolution\GrayCodeSolution.cs" />
     <Compile Include="src\090_SubsetsIISolution\SubsetsIISolution.cs" />
     <Compile Include="src\091_DecodeWaySolution\DecodeWaysSolution.cs" />
+    <Compile Include="src\092_ReverseLinkedListIISolution\ReverseLinkedListIISolution.cs" />
     <Compile Include="src\100_SameTreeSolution\SameTreeSolution.cs" />
     <Compile Include="src\101_SymmetricTreeSolution\SymmetricTreeIterativeSolution.cs" />
     <Compile Include="src\101_SymmetricTreeSolution\SymmetricTreeSolution.cs" />
