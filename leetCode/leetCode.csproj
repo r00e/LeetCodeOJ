@@ -141,6 +141,7 @@
     <Compile Include="src\090_SubsetsIISolution\SubsetsIISolution.cs" />
     <Compile Include="src\091_DecodeWaySolution\DecodeWaysSolution.cs" />
     <Compile Include="src\092_ReverseLinkedListIISolution\ReverseLinkedListIISolution.cs" />
+    <Compile Include="src\093_RestoreIPAddressesSolution\RestoreIPAddressesSolution.cs" />
     <Compile Include="src\100_SameTreeSolution\SameTreeSolution.cs" />
     <Compile Include="src\101_SymmetricTreeSolution\SymmetricTreeIterativeSolution.cs" />
     <Compile Include="src\101_SymmetricTreeSolution\SymmetricTreeSolution.cs" />
@@ -193,6 +194,7 @@
     <Compile Include="src\Common\TreeNode.cs" />
     <Compile Include="test\DecodeWaysFacts.cs" />
     <Compile Include="test\DeleteNodeInLinkedListFacts.cs" />
+    <Compile Include="test\RestoreIPAddressesFacts.cs" />
     <Compile Include="test\SubsetsIIFacts.cs" />
     <Compile Include="test\GrayCodeFacts.cs" />
     <Compile Include="test\PartitionListFacts.cs" />

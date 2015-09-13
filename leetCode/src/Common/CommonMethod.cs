@@ -1,4 +1,6 @@
-﻿using System.Text;
+﻿using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 using Xunit.Should;
 
 namespace leetCode.Common
@@ -22,7 +24,7 @@ namespace leetCode.Common
             }
         }
 
-        public static void VerifyListResult(ListNode head, string expectedResult)
+        public static void VerifyListNodeResult(ListNode head, string expectedResult)
         {
             var actualResultString = new StringBuilder();
 
@@ -33,6 +35,16 @@ namespace leetCode.Common
             }
 
             actualResultString.ToString().ShouldBe(expectedResult);
+        }
+
+        public static void VerifyListStringResult(IList<string> actualResult, string expectedResult)
+        {
+            var result = new StringBuilder();
+            result.Append("[]");
+            actualResult.ToList().ForEach(str => result.Insert(result.Length - 1, string.Format(", '{0}'", str)));
+            if(result.Length > 2) result.Remove(1, 2);
+
+            result.ToString().ShouldBe(expectedResult);
         }
     }
 }

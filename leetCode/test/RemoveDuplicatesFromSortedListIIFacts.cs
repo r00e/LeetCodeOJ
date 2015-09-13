@@ -15,14 +15,14 @@ namespace leetCode.test
         public void should_return_empty_for_empty_list()
         {
             var result = solution.DeleteDuplicates(null);
-            CommonMethod.VerifyListResult(result, string.Empty);
+            CommonMethod.VerifyListNodeResult(result, string.Empty);
         }
 
         [Fact]
         public void should_return_1_for_list_1()
         {
             var result = solution.DeleteDuplicates(new ListNode(1));
-            CommonMethod.VerifyListResult(result, "1");
+            CommonMethod.VerifyListNodeResult(result, "1");
         }
             
         [Fact]
@@ -33,7 +33,7 @@ namespace leetCode.test
                 next = new ListNode(1)
             });
 
-            CommonMethod.VerifyListResult(result, string.Empty);
+            CommonMethod.VerifyListNodeResult(result, string.Empty);
         }
 
         [Fact]
@@ -47,7 +47,7 @@ namespace leetCode.test
                 }
             });
 
-            CommonMethod.VerifyListResult(result, "2");
+            CommonMethod.VerifyListNodeResult(result, "2");
         }
             
         [Fact]
@@ -64,7 +64,7 @@ namespace leetCode.test
                 }
             });
 
-            CommonMethod.VerifyListResult(result, string.Empty);
+            CommonMethod.VerifyListNodeResult(result, string.Empty);
         }
             
         [Fact]
@@ -84,7 +84,7 @@ namespace leetCode.test
                 }
             });
 
-            CommonMethod.VerifyListResult(result, "0");
+            CommonMethod.VerifyListNodeResult(result, "0");
         }
             
         [Fact]
@@ -107,7 +107,7 @@ namespace leetCode.test
                 }
             });
 
-            CommonMethod.VerifyListResult(result, "02");
+            CommonMethod.VerifyListNodeResult(result, "02");
         }
             
         [Fact]
@@ -130,7 +130,7 @@ namespace leetCode.test
                 }
             });
 
-            CommonMethod.VerifyListResult(result, "03");
+            CommonMethod.VerifyListNodeResult(result, "03");
         }
     }
 }

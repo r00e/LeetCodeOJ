@@ -14,7 +14,7 @@ namespace leetCode.test
         {
             var result = solution.ReverseBetween(new ListNode(1), 1, 1);
 
-            CommonMethod.VerifyListResult(result, "1");
+            CommonMethod.VerifyListNodeResult(result, "1");
         }
             
         [Fact]
@@ -22,7 +22,7 @@ namespace leetCode.test
         {
             var result = solution.ReverseBetween(new ListNode(1){next = new ListNode(2)}, 1, 2);
 
-            CommonMethod.VerifyListResult(result, "21");
+            CommonMethod.VerifyListNodeResult(result, "21");
         }
             
         [Fact]
@@ -37,7 +37,7 @@ namespace leetCode.test
                     }
                 }, 1, 2);
 
-            CommonMethod.VerifyListResult(result, "213");
+            CommonMethod.VerifyListNodeResult(result, "213");
         }
             
         [Fact]
@@ -52,7 +52,7 @@ namespace leetCode.test
                     }
                 }, 1, 3);
 
-            CommonMethod.VerifyListResult(result, "321");
+            CommonMethod.VerifyListNodeResult(result, "321");
         }
             
         [Fact]
@@ -70,7 +70,7 @@ namespace leetCode.test
                     }
                 }, 2, 3);
 
-            CommonMethod.VerifyListResult(result, "1324");
+            CommonMethod.VerifyListNodeResult(result, "1324");
         }
     }
 }
