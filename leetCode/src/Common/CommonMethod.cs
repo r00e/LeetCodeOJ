@@ -46,5 +46,14 @@ namespace leetCode.Common
 
             result.ToString().ShouldBe(expectedResult);
         }
+
+        public static void VerifyTreeNodeResult(IList<int> actualResult, string expectedResult)
+        {
+            var result = new StringBuilder().Append("[]");
+
+            actualResult.ToList().ForEach(r => result.Insert(result.Length - 1, r));
+
+            result.ToString().ShouldBe(expectedResult);
+        }
     }
 }
