@@ -2,7 +2,7 @@
 using System.Linq;
 using leetCode.Common;
 
-namespace leetCode._094_BinaryTreeInorderTraversalRecursiveSolution
+namespace leetCode._094_BinaryTreeInorderTraversalSolution
 {
     public class BinaryTreeInorderTraversalRecursiveSolution
     {
