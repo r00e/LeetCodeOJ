@@ -145,6 +145,7 @@
     <Compile Include="src\094_BinaryTreeInorderTraversalSolution\BinaryTreeInorderTraversalIterativeSolution.cs" />
     <Compile Include="src\094_BinaryTreeInorderTraversalSolution\BinaryTreeInorderTraversalRecursiveSolution.cs" />
     <Compile Include="src\095_UniqueBinarySearchTreesII\UniqueBinarySearchTreesIISolution.cs" />
+    <Compile Include="src\096_UniqueBinarySearchTrees\UniqueBinarySearchTreesSolution.cs" />
     <Compile Include="src\100_SameTreeSolution\SameTreeSolution.cs" />
     <Compile Include="src\101_SymmetricTreeSolution\SymmetricTreeIterativeSolution.cs" />
     <Compile Include="src\101_SymmetricTreeSolution\SymmetricTreeSolution.cs" />
@@ -195,6 +196,7 @@
     <Compile Include="src\Common\CommonMethod.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
+    <Compile Include="test\UniqueBinarySearchTreesFacts.cs" />
     <Compile Include="test\UniqueBinarySearchTreesIIFacts.cs" />
     <Compile Include="test\DecodeWaysFacts.cs" />
     <Compile Include="test\DeleteNodeInLinkedListFacts.cs" />
