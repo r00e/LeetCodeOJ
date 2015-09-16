@@ -47,13 +47,70 @@ namespace leetCode.Common
             result.ToString().ShouldBe(expectedResult);
         }
 
-        public static void VerifyTreeNodeResult(IList<int> actualResult, string expectedResult)
+        public static void VerifyIntListResult(IList<int> actualResult, string expectedResult)
         {
             var result = new StringBuilder().Append("[]");
 
             actualResult.ToList().ForEach(r => result.Insert(result.Length - 1, r));
 
             result.ToString().ShouldBe(expectedResult);
+        }
+
+        public static void VerifyTreeNodeResult(IList<TreeNode> actualResultTree, string expectedResult)
+        {
+            var actualResultTreeToString = new StringBuilder();
+            actualResultTreeToString.Append("[]");
+            if (actualResultTree.First() == null)
+            {
+                actualResultTreeToString.Insert(1, "[]");
+                actualResultTreeToString.ToString().ShouldBe(expectedResult);
+            }
+            else
+            {
+                actualResultTree.ToList().ForEach(tree =>
+                {
+                    var treeToString = new StringBuilder();
+
+                    treeToString.Append(TraversalTreeByLayer(tree));
+
+                    actualResultTreeToString.Insert(actualResultTreeToString.Length - 1,
+                        string.Format("[{0}], ", treeToString.Remove(0, 2)));
+                });
+
+                actualResultTreeToString.Remove(actualResultTreeToString.Length - 3, 2);
+                actualResultTreeToString.ToString().ShouldBe(expectedResult);
+            }
+        }
+
+        private static string TraversalTreeByLayer(TreeNode tree)
+        {
+            var result = new StringBuilder();
+            if (tree == null) return result.ToString();
+
+            var queue = new Queue<TreeNode>();
+            queue.Enqueue(tree);
+            
+            while (queue.Count != 0)
+            {
+                var node = queue.Dequeue();
+
+                if (node != null)
+                {
+                    result.Append(string.Format(", {0}", (node as TreeNode).val));
+
+                    if ((node as TreeNode).left != null || (node as TreeNode).right != null)
+                    {
+                        queue.Enqueue((node as TreeNode).left);
+                        queue.Enqueue((node as TreeNode).right);
+                    }
+                }
+                else
+                {
+                    result.Append(", #");
+                }
+            }
+
+            return result.ToString();
         }
     }
 }

@@ -12,21 +12,21 @@ namespace leetCode.test
         public void should_return_empty_for_null()
         {
             var result = recursiveSolution.InorderTraversal(null);
-            CommonMethod.VerifyTreeNodeResult(result, "[]");
+            CommonMethod.VerifyIntListResult(result, "[]");
         }
             
         [Fact]
         public void should_return_1_for_1()
         {
             var result = recursiveSolution.InorderTraversal(new TreeNode(1));
-            CommonMethod.VerifyTreeNodeResult(result, "[1]");
+            CommonMethod.VerifyIntListResult(result, "[1]");
         }
             
         [Fact]
         public void should_return_21_for_12()
         {
             var result = recursiveSolution.InorderTraversal(new TreeNode(1){left = new TreeNode(2)});
-            CommonMethod.VerifyTreeNodeResult(result, "[21]");
+            CommonMethod.VerifyIntListResult(result, "[21]");
         }
             
         [Fact]
@@ -37,7 +37,7 @@ namespace leetCode.test
                 left = new TreeNode(2),
                 right = new TreeNode(3)
             });
-            CommonMethod.VerifyTreeNodeResult(result, "[213]");
+            CommonMethod.VerifyIntListResult(result, "[213]");
         }
             
         [Fact]
@@ -50,7 +50,7 @@ namespace leetCode.test
                     left = new TreeNode(3)
                 }
             });
-            CommonMethod.VerifyTreeNodeResult(result, "[132]");
+            CommonMethod.VerifyIntListResult(result, "[132]");
         }
     }
 
@@ -62,21 +62,21 @@ namespace leetCode.test
         public void should_return_empty_for_null()
         {
             var result = iterativeSolution.InorderTraversal(null);
-            CommonMethod.VerifyTreeNodeResult(result, "[]");
+            CommonMethod.VerifyIntListResult(result, "[]");
         }
 
         [Fact]
         public void should_return_1_for_1()
         {
             var result = iterativeSolution.InorderTraversal(new TreeNode(1));
-            CommonMethod.VerifyTreeNodeResult(result, "[1]");
+            CommonMethod.VerifyIntListResult(result, "[1]");
         }
 
         [Fact]
         public void should_return_21_for_12()
         {
             var result = iterativeSolution.InorderTraversal(new TreeNode(1) { left = new TreeNode(2) });
-            CommonMethod.VerifyTreeNodeResult(result, "[21]");
+            CommonMethod.VerifyIntListResult(result, "[21]");
         }
 
         [Fact]
@@ -87,7 +87,7 @@ namespace leetCode.test
                 left = new TreeNode(2),
                 right = new TreeNode(3)
             });
-            CommonMethod.VerifyTreeNodeResult(result, "[213]");
+            CommonMethod.VerifyIntListResult(result, "[213]");
         }
 
         [Fact]
@@ -100,7 +100,7 @@ namespace leetCode.test
                     left = new TreeNode(3)
                 }
             });
-            CommonMethod.VerifyTreeNodeResult(result, "[132]");
+            CommonMethod.VerifyIntListResult(result, "[132]");
         }
     }
 }
