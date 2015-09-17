@@ -151,6 +151,7 @@
     <Compile Include="src\101_SymmetricTreeSolution\SymmetricTreeIterativeSolution.cs" />
     <Compile Include="src\101_SymmetricTreeSolution\SymmetricTreeSolution.cs" />
     <Compile Include="src\102_BinaryTreeLevelOrderTraversalSolution\BinaryTreeLevelOrderTraversalSolution.cs" />
+    <Compile Include="src\103_BinaryTreeZigzagLevelOrderTraversalSolution\BinaryTreeZigzagLevelOrderTraversalSolution.cs" />
     <Compile Include="src\104_MaximumDepthOfBinaryTreeSolution\MaximumDepthOfBinaryTreeRecursiveSolution.cs" />
     <Compile Include="src\104_MaximumDepthOfBinaryTreeSolution\MaximumDepthOfBinaryTreeSolution.cs" />
     <Compile Include="src\107_BinaryTreeLevelOrderTraversalIISolution\BinaryTreeLevelOrderTraversalIISolution.cs" />
@@ -197,6 +198,7 @@
     <Compile Include="src\Common\CommonMethod.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
+    <Compile Include="test\BinaryTreeZigzagLevelOrderTraversalFacts.cs" />
     <Compile Include="test\ValidateBinarySearchTreeFacts.cs" />
     <Compile Include="test\UniqueBinarySearchTreesFacts.cs" />
     <Compile Include="test\UniqueBinarySearchTreesIIFacts.cs" />
