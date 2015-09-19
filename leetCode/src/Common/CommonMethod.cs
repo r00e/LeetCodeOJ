@@ -56,7 +56,7 @@ namespace leetCode.Common
             result.ToString().ShouldBe(expectedResult);
         }
 
-        public static void VerifyTreeNodeResult(IList<TreeNode> actualResultTree, string expectedResult)
+        public static void VerifyTreeNodeListResult(IList<TreeNode> actualResultTree, string expectedResult)
         {
             var actualResultTreeToString = new StringBuilder();
             actualResultTreeToString.Append("[]");
@@ -73,8 +73,8 @@ namespace leetCode.Common
 
                     treeToString.Append(TraversalTreeByLayer(tree));
 
-                    actualResultTreeToString.Insert(actualResultTreeToString.Length - 1,
-                        string.Format("[{0}], ", treeToString.Remove(0, 2)));
+                    actualResultTreeToString.Insert(actualResultTreeToString.Length - 1, 
+                        string.Format("{0}, ", treeToString));
                 });
 
                 actualResultTreeToString.Remove(actualResultTreeToString.Length - 3, 2);
@@ -85,7 +85,7 @@ namespace leetCode.Common
         private static string TraversalTreeByLayer(TreeNode tree)
         {
             var result = new StringBuilder();
-            if (tree == null) return result.ToString();
+            if (tree == null) return result.Append("[]").ToString();
 
             var queue = new Queue<TreeNode>();
             queue.Enqueue(tree);
@@ -96,12 +96,12 @@ namespace leetCode.Common
 
                 if (node != null)
                 {
-                    result.Append(string.Format(", {0}", (node as TreeNode).val));
+                    result.Append(string.Format(", {0}", node.val));
 
-                    if ((node as TreeNode).left != null || (node as TreeNode).right != null)
+                    if (node.left != null || node.right != null)
                     {
-                        queue.Enqueue((node as TreeNode).left);
-                        queue.Enqueue((node as TreeNode).right);
+                        queue.Enqueue(node.left);
+                        queue.Enqueue(node.right);
                     }
                 }
                 else
@@ -110,7 +110,14 @@ namespace leetCode.Common
                 }
             }
 
-            return result.ToString();
+            return string.Format("[{0}]", result.Remove(0, 2));
+        }
+
+        public static void VerifyTreeNodeResult(TreeNode actualTree, string expectedTreeToString)
+        {
+            var actualTreeToString = TraversalTreeByLayer(actualTree);
+
+            actualTreeToString.ShouldBe(expectedTreeToString);
         }
     }
 }
