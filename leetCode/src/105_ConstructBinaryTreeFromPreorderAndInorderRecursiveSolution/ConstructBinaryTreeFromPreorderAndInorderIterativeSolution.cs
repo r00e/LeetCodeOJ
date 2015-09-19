@@ -16,29 +16,29 @@ namespace leetCode._105_ConstructBinaryTreeFromPreorderAndInorderRecursiveSoluti
                 stack.Push(root);
 
                 TreeNode node = null;
-                int i = 1, j = 0;
+                int preorderIndex = 1, inorderIndex = 0;
 
-                while (j < inorder.Length)
+                while (inorderIndex < inorder.Length)
                 {
-                    if (stack.Count > 0 && stack.Peek().val == inorder[j])
+                    if (stack.Count > 0 && stack.Peek().val == inorder[inorderIndex])
                     {
                         node = stack.Pop();
-                        j++;
+                        inorderIndex++;
                     }
                     else if (node != null)
                     {
-                        var newNode = new TreeNode(preorder[i]);
+                        var newNode = new TreeNode(preorder[preorderIndex]);
                         node.right = newNode;
                         stack.Push(newNode);
-                        i++;
+                        preorderIndex++;
                         node = null;
                     }
                     else
                     {
-                        var newNode = new TreeNode(preorder[i]);
+                        var newNode = new TreeNode(preorder[preorderIndex]);
                         stack.Peek().left = newNode;
                         stack.Push(newNode);
-                        i++;
+                        preorderIndex++;
                     }
                 }
 
