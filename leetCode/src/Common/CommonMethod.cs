@@ -82,6 +82,13 @@ namespace leetCode.Common
             }
         }
 
+        public static void VerifyTreeNodeResult(TreeNode actualTree, string expectedTreeToString)
+        {
+            var actualTreeToString = TraversalTreeByLayer(actualTree);
+
+            actualTreeToString.ShouldBe(expectedTreeToString);
+        }
+
         private static string TraversalTreeByLayer(TreeNode tree)
         {
             var result = new StringBuilder();
@@ -89,7 +96,7 @@ namespace leetCode.Common
 
             var queue = new Queue<TreeNode>();
             queue.Enqueue(tree);
-            
+
             while (queue.Count != 0)
             {
                 var node = queue.Dequeue();
@@ -111,13 +118,6 @@ namespace leetCode.Common
             }
 
             return string.Format("[{0}]", result.Remove(0, 2));
-        }
-
-        public static void VerifyTreeNodeResult(TreeNode actualTree, string expectedTreeToString)
-        {
-            var actualTreeToString = TraversalTreeByLayer(actualTree);
-
-            actualTreeToString.ShouldBe(expectedTreeToString);
         }
     }
 }
