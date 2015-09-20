@@ -167,6 +167,7 @@
     <Compile Include="src\114_FlattenBinaryTreeToLinkedList\FlattenBinaryTreeToLinkedListSolution.cs" />
     <Compile Include="src\118_PascalTriangleSolution\PascalTriangleSolution.cs" />
     <Compile Include="src\119_PascalTriangleIISolution\PascalTriangleSolutionII.cs" />
+    <Compile Include="src\120_Triangle\TriangleSolution.cs" />
     <Compile Include="src\125_ValidPalindromeSolution\ValidPalindromeSolution.cs" />
     <Compile Include="src\155_MinStackSolution\MinStackSolution.cs" />
     <Compile Include="src\160_IntersectionOfTwoLinkedListsSolution\IntersectionOfTwoLinkedListsSolution.cs" />
@@ -205,6 +206,7 @@
     <Compile Include="src\Common\CommonMethod.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
+    <Compile Include="test\TriangleFacts.cs" />
     <Compile Include="test\FlattenBinaryTreeToLinkedListFacts.cs" />
     <Compile Include="test\PathSumIIFacts.cs" />
     <Compile Include="test\ConvertSortedListToBinarySearchTreeFacts.cs" />
