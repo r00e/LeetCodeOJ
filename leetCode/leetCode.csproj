@@ -159,6 +159,7 @@
     <Compile Include="src\106_ConstructBinaryTreeFromInorderAndPostorderIterativeSolution\ConstructBinaryTreeFromInorderAndPostorderIterativeSolution.cs" />
     <Compile Include="src\107_BinaryTreeLevelOrderTraversalIISolution\BinaryTreeLevelOrderTraversalIISolution.cs" />
     <Compile Include="src\108_ConvertSortedArrayToBinarySearchTreeSolution\ConvertSortedArrayToBinarySearchTreeSolution.cs" />
+    <Compile Include="src\109_ConvertSortedListToBinarySearchTree\ConvertSortedListToBinarySearchTreeSolution.cs" />
     <Compile Include="src\110_BalancedBinaryTreeSolution\BalancedBinaryTreeSolution.cs" />
     <Compile Include="src\111_MinimumDepthOfBinaryTreeSolution\MinimumDepthOfBinaryTreeSolution.cs" />
     <Compile Include="src\112_PathSumSolution\PathSumSolution.cs" />
@@ -202,6 +203,7 @@
     <Compile Include="src\Common\CommonMethod.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
+    <Compile Include="test\ConvertSortedListToBinarySearchTreeFacts.cs" />
     <Compile Include="test\ConvertSortedArrayToBinarySearchTreeFacts.cs" />
     <Compile Include="test\ConstructBinaryTreeFromInorderAndPostorderFacts.cs" />
     <Compile Include="test\ConstructBinaryTreeFromPreorderAndInorderFacts.cs" />
