@@ -169,6 +169,8 @@
     <Compile Include="src\119_PascalTriangleIISolution\PascalTriangleSolutionII.cs" />
     <Compile Include="src\120_Triangle\TriangleSolution.cs" />
     <Compile Include="src\121_BestTimeToBuyAndSellStock\BestTimeToBuyAndSellStockSolution.cs" />
+    <Compile Include="src\122_BestTimeToBuyAndSellStockII\BestTimeToBuyAndSellStockIISolution.cs" />
+    <Compile Include="src\123_BestTimeToBuyAndSellStockIIISolution\BestTimeToBuyAndSellStockIIISolution.cs" />
     <Compile Include="src\125_ValidPalindromeSolution\ValidPalindromeSolution.cs" />
     <Compile Include="src\155_MinStackSolution\MinStackSolution.cs" />
     <Compile Include="src\160_IntersectionOfTwoLinkedListsSolution\IntersectionOfTwoLinkedListsSolution.cs" />
@@ -207,6 +209,7 @@
     <Compile Include="src\Common\CommonMethod.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
+    <Compile Include="test\BestTimeToBuyAndSellStockIIIFacts.cs" />
     <Compile Include="test\BestTimeToBuyAndSellStockFacts.cs" />
     <Compile Include="test\TriangleFacts.cs" />
     <Compile Include="test\FlattenBinaryTreeToLinkedListFacts.cs" />
@@ -329,6 +332,7 @@
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
