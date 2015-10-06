@@ -175,6 +175,8 @@
     <Compile Include="src\127_WordLadder\WordLadderAnotherSolution.cs" />
     <Compile Include="src\127_WordLadder\WordLadderSolution.cs" />
     <Compile Include="src\129_SumRootToLeafNumbers\SumRootToLeafNumbersSolution.cs" />
+    <Compile Include="src\130_SurroundedRegions\SurroundedRegionsSolution.cs" />
+    <Compile Include="src\130_SurroundedRegions\SurroundedRegionsComplicatedSolution.cs" />
     <Compile Include="src\155_MinStackSolution\MinStackSolution.cs" />
     <Compile Include="src\160_IntersectionOfTwoLinkedListsSolution\IntersectionOfTwoLinkedListsSolution.cs" />
     <Compile Include="src\165_CompareVersionNumber\CompareVersionNumbersSolution.cs" />
@@ -212,6 +214,7 @@
     <Compile Include="src\Common\CommonMethod.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
+    <Compile Include="test\SurroundedRegionsFacts.cs" />
     <Compile Include="test\SumRootToLeafNumbersFacts.cs" />
     <Compile Include="test\WordLadderFacts.cs" />
     <Compile Include="test\BestTimeToBuyAndSellStockIIIFacts.cs" />
