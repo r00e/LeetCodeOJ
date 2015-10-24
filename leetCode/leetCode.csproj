@@ -213,8 +213,10 @@
     <Compile Include="src\235_LowestBinaryCommonAncestorOfBinarySearchTreeSolution\LowestCommonAncestorOfBinarySearchTreeSolution.cs" />
     <Compile Include="src\237_DeleteNodeInLinkedListSolution\DeleteNodeInLinkedListSolution.cs" />
     <Compile Include="src\Common\CommonMethod.cs" />
+    <Compile Include="src\Common\UndirectedGraphNode.cs" />
     <Compile Include="src\Common\ListNode.cs" />
     <Compile Include="src\Common\TreeNode.cs" />
+    <Compile Include="test\CloneGraphFacts.cs" />
     <Compile Include="test\PalindromePartitioningFacts.cs" />
     <Compile Include="test\SurroundedRegionsFacts.cs" />
     <Compile Include="test\SumRootToLeafNumbersFacts.cs" />
