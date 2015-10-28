@@ -26,6 +26,24 @@ namespace leetCode._024_SwapNodesInPairsSolution
             }
 
             return head;
+
+//          a shorter solution
+//            if (head == null || head.next == null) return head;
+//
+//            var left = head;
+//            var right = head.next;
+//            var newHead = right;
+//
+//            while (left != null && right != null)
+//            {
+//                var tmp = right.next;
+//                right.next = left;
+//                left.next = tmp == null ? tmp : tmp.next;
+//                right = left.next;
+//                left = tmp;
+//            }
+//
+//            return newHead;
         }
     }
 }
