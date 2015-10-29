@@ -49,6 +49,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="src\023_MergeKSortedListsSolution\MergeKSortedListsSolution.cs" />
     <Compile Include="src\005_LongestPalindromicSubstringSolution\LongestPalindromicSubstringSolution.cs" />
     <Compile Include="src\011_ContainerWithMostWaterSolution\ContainerWithMostWaterSolution.cs" />
     <Compile Include="src\013_RomanToInteger\RomanToIntegerSolution.cs" />
@@ -178,6 +179,7 @@
     <Compile Include="src\130_SurroundedRegions\SurroundedRegionsSolution.cs" />
     <Compile Include="src\130_SurroundedRegions\SurroundedRegionsComplicatedSolution.cs" />
     <Compile Include="src\131_PalindromePartitioningSolution\PalindromePartitioningSolution.cs" />
+    <Compile Include="src\133_CloneGraphSolution\CloneGraphSolution.cs" />
     <Compile Include="src\155_MinStackSolution\MinStackSolution.cs" />
     <Compile Include="src\160_IntersectionOfTwoLinkedListsSolution\IntersectionOfTwoLinkedListsSolution.cs" />
     <Compile Include="src\165_CompareVersionNumber\CompareVersionNumbersSolution.cs" />
